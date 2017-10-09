@@ -1,0 +1,119 @@
+Country,Description,Month,Daily average
+Guinea,New cases of confirmed,August,12.4
+Guinea,New cases of confirmed,September,13.0
+Guinea,New cases of confirmed,October,6.0
+Guinea,New cases of confirmed among health workers,August,0.0
+Guinea,New cases of confirmed among health workers,September,0.438
+Guinea,New cases of confirmed among health workers,October,2.0
+Guinea,New cases of probables,August,1.6
+Guinea,New cases of probables,September,1.188
+Guinea,New cases of probables,October,0.0
+Guinea,New cases of suspects,August,11.8
+Guinea,New cases of suspects,September,5.438
+Guinea,New cases of suspects,October,28.0
+Guinea,New deaths registered,August,3.75
+Guinea,New deaths registered,September,3.562
+Guinea,New deaths registered,October,15.0
+Guinea,New deaths registered among health workers,August,0.0
+Guinea,New deaths registered among health workers,September,0.0
+Guinea,New deaths registered among health workers,October,0.0
+Guinea,New deaths registered today,August,2.0
+Guinea,New deaths registered today (confirmed),August,2.0
+Guinea,New deaths registered today (probables),August,0.0
+Guinea,New deaths registered today (suspects),August,0.0
+Liberia,Cumulative deaths among HCW,June,5.143
+Liberia,Cumulative deaths among HCW,July,20.636
+Liberia,Cumulative deaths among HCW,August,97.333
+Liberia,Cumulative deaths among HCW,September,158.667
+Liberia,Cumulative deaths among HCW,October,224.077
+Liberia,Cumulative deaths among HCW,November,318.933
+Liberia,Cumulative deaths among HCW,December,38.667
+Liberia,New Case/s (Probable),June,2.286
+Liberia,New Case/s (Probable),July,7.455
+Liberia,New Case/s (Probable),August,39.556
+Liberia,New Case/s (Probable),September,58.667
+Liberia,New Case/s (Probable),October,35.92
+Liberia,New Case/s (Probable),November,16.733
+Liberia,New Case/s (Probable),December,2316.0
+Liberia,New Case/s (Suspected),June,4.857
+Liberia,New Case/s (Suspected),July,6.0
+Liberia,New Case/s (Suspected),August,24.0
+Liberia,New Case/s (Suspected),September,56.667
+Liberia,New Case/s (Suspected),October,53.16
+Liberia,New Case/s (Suspected),November,35.933
+Liberia,New Case/s (Suspected),December,4086.444
+Liberia,New case/s (confirmed),June,4.286
+Liberia,New case/s (confirmed),July,3.636
+Liberia,New case/s (confirmed),August,10.889
+Liberia,New case/s (confirmed),September,12.333
+Liberia,New case/s (confirmed),October,2.6
+Liberia,New case/s (confirmed),November,5.133
+Liberia,New case/s (confirmed),December,3860.667
+Liberia,Newly Reported deaths in HCW,June,0.286
+Liberia,Newly Reported deaths in HCW,July,1.091
+Liberia,Newly Reported deaths in HCW,August,2.222
+Liberia,Newly Reported deaths in HCW,September,1.25
+Liberia,Newly Reported deaths in HCW,October,0.12
+Liberia,Newly Reported deaths in HCW,November,0.0
+Liberia,Newly Reported deaths in HCW,December,0.0
+Liberia,Newly reported deaths,June,3.857
+Liberia,Newly reported deaths,July,8.545
+Liberia,Newly reported deaths,August,46.444
+Liberia,Newly reported deaths,September,72.083
+Liberia,Newly reported deaths,October,56.16
+Liberia,Newly reported deaths,November,27.133
+Liberia,Newly reported deaths,December,0.0
+Sierra Leone,death_confirmed,August,625.0
+Sierra Leone,death_confirmed,September,897.724
+Sierra Leone,death_confirmed,October,1816.607
+Sierra Leone,death_confirmed,November,2027.19
+Sierra Leone,death_confirmed,December,2629.6
+Sierra Leone,death_probable,August,67.0
+Sierra Leone,death_probable,September,70.172
+Sierra Leone,death_probable,October,319.143
+Sierra Leone,death_probable,November,326.857
+Sierra Leone,death_probable,December,332.8
+Sierra Leone,death_suspected,August,14.0
+Sierra Leone,death_suspected,September,20.862
+Sierra Leone,death_suspected,October,194.75
+Sierra Leone,death_suspected,November,249.286
+Sierra Leone,death_suspected,December,252.8
+Sierra Leone,new_completed_contacts,August,178.6
+Sierra Leone,new_completed_contacts,September,222.621
+Sierra Leone,new_completed_contacts,October,463.179
+Sierra Leone,new_completed_contacts,November,250.667
+Sierra Leone,new_completed_contacts,December,664.8
+Sierra Leone,new_confirmed,August,38.15
+Sierra Leone,new_confirmed,September,70.69
+Sierra Leone,new_confirmed,October,114.25
+Sierra Leone,new_confirmed,November,123.143
+Sierra Leone,new_confirmed,December,65.2
+Sierra Leone,new_contacts,August,359.1
+Sierra Leone,new_contacts,September,509.448
+Sierra Leone,new_contacts,October,889.75
+Sierra Leone,new_contacts,November,499.952
+Sierra Leone,new_contacts,December,706.8
+Sierra Leone,new_negative,October,59.5
+Sierra Leone,new_negative,November,68.571
+Sierra Leone,new_negative,December,66.4
+Sierra Leone,new_noncase,August,21.4
+Sierra Leone,new_noncase,September,56.034
+Sierra Leone,new_noncase,October,109.357
+Sierra Leone,new_noncase,November,161.857
+Sierra Leone,new_noncase,December,189.6
+Sierra Leone,new_positive,October,53.125
+Sierra Leone,new_positive,November,37.476
+Sierra Leone,new_positive,December,18.2
+Sierra Leone,new_probable,August,2.3
+Sierra Leone,new_probable,September,0.0
+Sierra Leone,new_probable,October,1.714
+Sierra Leone,new_probable,November,0.0
+Sierra Leone,new_probable,December,0.0
+Sierra Leone,new_samples,October,123.5
+Sierra Leone,new_samples,November,119.0
+Sierra Leone,new_samples,December,90.2
+Sierra Leone,new_suspected,August,11.35
+Sierra Leone,new_suspected,September,12.828
+Sierra Leone,new_suspected,October,26.893
+Sierra Leone,new_suspected,November,30.667
+Sierra Leone,new_suspected,December,16.8

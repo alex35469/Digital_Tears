@@ -16,9 +16,9 @@ Ideally, we want to use a traditional media database as our main source of event
 
 ## Research questions
 
-How are tragic events treated differently regarding on where they happened in the world ?
-Does the reaction get bigger for more disastrous events ?
-How is the reaction per country linked to the country where the event happened ? In other how (less) do people care about events happening in foreign countries, compared to their homeland ?
+* How are tragic events treated differently regarding on where they happened in the world ?
+* Does the reaction get bigger for more disastrous events ?
+* How is the reaction per country linked to the country where the event happened ? In other how (less) do people care about events happening in foreign countries, compared to their homeland ?
 
 ## Dataset
 
@@ -26,14 +26,14 @@ News On The Web, Twitter Dataset
 
 ## List of internal milestones up until project milestone 2
 
-Learn how the Twitter data set is working, how to treat so much data
-Learn how to locate the events in the news
-If the news from the web is too hard to treat, use the twitter news accounts to get the news
-Gain more insight about the data
-Adapt our research questions
-Questions for TAs
+* Learn how the Twitter data set is working, how to treat so much data
+* Learn how to locate the events in the news
+* If the news from the web is too hard to treat, use the twitter news accounts to get the news
+* Gain more insight about the data
+* Adapt our research questions
+* Questions for TAs
 
-Are we going to learn how to treat “raw” text or should we try to find out on our own ? That means is it possible to use the news dataset as it is, is there a way to categorise this kind of data for easier use ?
-How to access the cluster, and is it possible to filter the data within the cluster?
-Are we supposed to ask Prof. Martin Jaggi for the Twitter dataset ?
+* Are we going to learn how to treat “raw” text or should we try to find out on our own ? That means is it possible to use the news dataset as it is, is there a way to categorise this kind of data for easier use ?
+* How to access the cluster, and is it possible to filter the data within the cluster?
+* Are we supposed to ask Prof. Martin Jaggi for the Twitter dataset ?
 

@@ -31,7 +31,8 @@ News On The Web, Twitter Dataset
 * If the news from the web is too hard to treat, use the twitter news accounts to get the news
 * Gain more insight about the data
 * Adapt our research questions
-* Questions for TAs
+
+## Questions for TAs
 
 * Are we going to learn how to treat “raw” text or should we try to find out on our own ? That means is it possible to use the news dataset as it is, is there a way to categorise this kind of data for easier use ?
 * How to access the cluster, and is it possible to filter the data within the cluster?

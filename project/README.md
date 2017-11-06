@@ -18,7 +18,7 @@ Ideally, we want to use a traditional media database as our main source of event
 
 * How are tragic events treated differently regarding on where they happened in the world ?
 * Does the reaction get bigger for more disastrous events ?
-* How is the reaction per country linked to the country where the event happened ? In other how (less) do people care about events happening in foreign countries, compared to their homeland ?
+* How is the reaction per country linked to the country where the event happened ? In other words, how (less) do people care about events happening in foreign countries, compared to their homeland ?
 
 # Dataset
 

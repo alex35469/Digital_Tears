@@ -1,39 +1,1 @@
-## Projet ADA : Digital Tears
-
-
-
-
-# Abstract
-
-Today, world news are closely followed, discussed, commented on different social media platforms. As a result, our group expresses a great interest into linking both the coverage of an event by the traditional media, and the following reaction of the population through social media. 
-
-Following this idea, we still have to refine our scope; we want to focus on the impact that 
-tragic events have on the internet sphere, and more precisely on the Twitter community.
-Indeed, we have seen throughout the last few years that powerful waves of compassion have often followed serious worldwide-covered events. How, and why do those trends start, and do they always grow independently of the event characteristics ? Can tweets be representative of the general consensus on those matters ? By studying both big events coverage and their internet aftermath, we hope to be able to highlight some difference in reaction and coverage depending on the characteristics of the events.
-
-Ideally, we want to use a traditional media database as our main source of events, to then work with the collected events and their related tweets. We will complement the events database, if needed, with information from Twitter.
-
-
-# Research questions
-
-* How are tragic events treated differently regarding on where they happened in the world ?
-* Does the reaction get bigger for more disastrous events ?
-* How is the reaction per country linked to the country where the event happened ? In other words, how (less) do people care about events happening in foreign countries, compared to their homeland ?
-
-# Dataset
-
-News On The Web, Twitter Dataset
-
-# List of internal milestones up until project milestone 2
-
-* Learn how the Twitter data set is working, how to treat so much data
-* Learn how to locate the events in the news
-* If the news from the web is too hard to treat, use the twitter news accounts to get the news
-* Gain more insight about the data
-* Adapt our research questions
- 
-# Questions for TAs
-
-* Are we going to learn how to treat “raw” text or should we try to find out on our own ? That means is it possible to use the news dataset as it is, is there a way to categorise this kind of data for easier use ?
-* How to access the cluster, and is it possible to filter the data within the cluster?
-* Are we supposed to ask Prof. Martin Jaggi for the Twitter dataset ?
+## Projet ADA : Digital Tears# AbstractToday, world news is closely followed, discussed, commented on different social media platforms. Thus, our group expresses a great interest into linking both the coverage of an event by the traditional media, and the following reaction of the population through social media. Following this idea, we still have to refine our scope; we want to focus on the impact that tragic events have on the internet sphere, and more precisely on the Twitter community.Indeed, we have seen throughout the last few years that powerful waves of compassion have often followed serious worldwide-covered events. How, and why do those trends start, and do they always grow independently of the event characteristics? Can tweets be representative of the general consensus on those matters? By studying both big events coverage and their internet aftermath, we hope to be able to highlight some difference in reaction and coverage depending on the characteristics of the events.We will focus on the Twitter dataset and match the data with a Wikipedia list of terror attacks from 2011, up to today.The first big step, looking at the size of the dataset, is to filter the tweets of interest, in our case the tweets reacting about subjects related to terrorism and terror attacks. From there, we will import the data into a Dataframe and start to filter and clean it.The next step will be to match the tweets with the events database that we obtain from Wikipedia. We can match reactions with a certain event looking at the date of both the tweet and the event, but also key words, like the location, the type of event. This matching will be of great use and will be necessary for most of our analysis.During our work, we try to limit the bias that could rise from the data collection, by for example including the most common languages.# Research questions* How are tragic events treated differently regarding on where they happened in the world ?* Does the reaction get bigger for more disastrous events ?* How is the reaction per country linked to the country where the event happened ? In other words, how (less) do people care about events happening in foreign countries, compared to their homeland ?More precisely :* How many reactions (tweets,retweets) follow an event compared to its importance (number of casualties, injuries). Is this ratio varying according to the type, location of an event ?* How fast does the (twitter) reactions fade after a tragic event, is it the same rate independently of the event’s characteristics ? # DatasetTwitter Dataset, and a little bit of scraping on WikipediaInitially, we wanted to use the NewsOnTheWeb dataset, but realized that it was not of great interest in our project. Twitter, along with a targeted Wikipedia dataset provide more than enough information. For the latter, we just perform requests to acquire the Table of all terror(ist) attacks from 2011 to today, by date, location, and other useful information.# List of internal milestones up until project milestone 2- [X] Learn how the Twitter data set is working, how to treat so much data - [ ] Learn how to locate the events in the news not of use anymore- [X] Gain more insight about the data- [X] Adapt our research questions- [X] Work with the cluster and filter the twitter data # Questions for TAs (milestone 2)

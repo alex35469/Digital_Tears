@@ -1,0 +1,3566 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS = false; L_NO_TOUCH = false; L_DISABLE_3D = false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css" />
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css" />
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <style> #map_b54fa302f100451e81833c4d4dbbe783 {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_b54fa302f100451e81833c4d4dbbe783" ></div>
+        
+</body>
+<script>    
+    
+
+            
+                var bounds = null;
+            
+
+            var map_b54fa302f100451e81833c4d4dbbe783 = L.map(
+                                  'map_b54fa302f100451e81833c4d4dbbe783',
+                                  {center: [30,5],
+                                  zoom: 2,
+                                  maxBounds: bounds,
+                                  layers: [],
+                                  worldCopyJump: false,
+                                  crs: L.CRS.EPSG3857
+                                 });
+            
+        
+    
+            var tile_layer_d8b166550fa8444ba56eefd1772a7d2c = L.tileLayer(
+                'https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png',
+                {
+  "attribution": null,
+  "detectRetina": false,
+  "maxZoom": 18,
+  "minZoom": 1,
+  "noWrap": false,
+  "subdomains": "abc"
+}
+                ).addTo(map_b54fa302f100451e81833c4d4dbbe783);
+        
+    
+
+            var circle_fc3751693217477abd7eb1e81dba1e74 = L.circle(
+                [33.98299275,66.39159363],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 0,
+  "radius": 779688,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b54fa302f100451e81833c4d4dbbe783);
+            
+    
+            var popup_42a53c16e7a44f1c8f95c39fe5e3be6c = L.popup({maxWidth: '300'});
+
+            
+                var html_8a2b122352794f8eb4a7245701f58226 = $('<div id="html_8a2b122352794f8eb4a7245701f58226" style="width: 100.0%; height: 100.0%;">Afghanistan: 185 attacks</div>')[0];
+                popup_42a53c16e7a44f1c8f95c39fe5e3be6c.setContent(html_8a2b122352794f8eb4a7245701f58226);
+            
+
+            circle_fc3751693217477abd7eb1e81dba1e74.bindPopup(popup_42a53c16e7a44f1c8f95c39fe5e3be6c);
+
+            
+        
+    
+
+            var circle_7607263e8f2e4893861371d5a6b77acf = L.circle(
+                [27.8986169,3.19771194],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 0,
+  "radius": 119952,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b54fa302f100451e81833c4d4dbbe783);
+            
+    
+            var popup_a6ac1909af8341c2b014702c2231043c = L.popup({maxWidth: '300'});
+
+            
+                var html_3caea4b38314444f90f9bea9351de8a7 = $('<div id="html_3caea4b38314444f90f9bea9351de8a7" style="width: 100.0%; height: 100.0%;">Algeria: 5 attacks</div>')[0];
+                popup_a6ac1909af8341c2b014702c2231043c.setContent(html_3caea4b38314444f90f9bea9351de8a7);
+            
+
+            circle_7607263e8f2e4893861371d5a6b77acf.bindPopup(popup_a6ac1909af8341c2b014702c2231043c);
+
+            
+        
+    
+
+            var circle_390bd563854b47fe996cd07ed6d0aa26 = L.circle(
+                [-12.16469683,16.70933622],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 0,
+  "radius": 0,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b54fa302f100451e81833c4d4dbbe783);
+            
+    
+            var popup_9af61e48ea1a4e848be30db85c6ebbd7 = L.popup({maxWidth: '300'});
+
+            
+                var html_5fd452cddc34428192e73f94a5dabc58 = $('<div id="html_5fd452cddc34428192e73f94a5dabc58" style="width: 100.0%; height: 100.0%;">0</div>')[0];
+                popup_9af61e48ea1a4e848be30db85c6ebbd7.setContent(html_5fd452cddc34428192e73f94a5dabc58);
+            
+
+            circle_390bd563854b47fe996cd07ed6d0aa26.bindPopup(popup_9af61e48ea1a4e848be30db85c6ebbd7);
+
+            
+        
+    
+
+            var circle_dfaad11462634d58b59827a2e0e0db84 = L.circle(
+                [-38.01529308,-64.97897469],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 0,
+  "radius": 0,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b54fa302f100451e81833c4d4dbbe783);
+            
+    
+            var popup_d20f04bbed3a45809ebd5cde5157c558 = L.popup({maxWidth: '300'});
+
+            
+                var html_26a100b06b9049d595d839fe7fce762e = $('<div id="html_26a100b06b9049d595d839fe7fce762e" style="width: 100.0%; height: 100.0%;">0</div>')[0];
+                popup_d20f04bbed3a45809ebd5cde5157c558.setContent(html_26a100b06b9049d595d839fe7fce762e);
+            
+
+            circle_dfaad11462634d58b59827a2e0e0db84.bindPopup(popup_d20f04bbed3a45809ebd5cde5157c558);
+
+            
+        
+    
+
+            var circle_2d75440759b247d4bd81a6b4f62b3cd7 = L.circle(
+                [40.13475528,45.01072318],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 0,
+  "radius": 0,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b54fa302f100451e81833c4d4dbbe783);
+            
+    
+            var popup_d545d429fa2e4823be9a25926c015860 = L.popup({maxWidth: '300'});
+
+            
+                var html_5c56431410e04514982db66390f54dc0 = $('<div id="html_5c56431410e04514982db66390f54dc0" style="width: 100.0%; height: 100.0%;">0</div>')[0];
+                popup_d545d429fa2e4823be9a25926c015860.setContent(html_5c56431410e04514982db66390f54dc0);
+            
+
+            circle_2d75440759b247d4bd81a6b4f62b3cd7.bindPopup(popup_d545d429fa2e4823be9a25926c015860);
+
+            
+        
+    
+
+            var circle_3a26505a5bac4d8ebb5c720d7f705f6a = L.circle(
+                [-26.29594646,133.55540944],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 0,
+  "radius": 59976,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b54fa302f100451e81833c4d4dbbe783);
+            
+    
+            var popup_315d734b9f274804b8ea46143a2df8ed = L.popup({maxWidth: '300'});
+
+            
+                var html_87e371c4ee3a4087a761cb57ea70bfab = $('<div id="html_87e371c4ee3a4087a761cb57ea70bfab" style="width: 100.0%; height: 100.0%;">Australia: 3 attacks</div>')[0];
+                popup_315d734b9f274804b8ea46143a2df8ed.setContent(html_87e371c4ee3a4087a761cb57ea70bfab);
+            
+
+            circle_3a26505a5bac4d8ebb5c720d7f705f6a.bindPopup(popup_315d734b9f274804b8ea46143a2df8ed);
+
+            
+        
+    
+
+            var circle_69309c767877459f81e27c09301e0ea9 = L.circle(
+                [47.63125476,13.18776731],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 0,
+  "radius": 59976,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b54fa302f100451e81833c4d4dbbe783);
+            
+    
+            var popup_79fc6a4e5e61478ca1149c986205fb19 = L.popup({maxWidth: '300'});
+
+            
+                var html_32632908812b41eaa18b2370d2149fc6 = $('<div id="html_32632908812b41eaa18b2370d2149fc6" style="width: 100.0%; height: 100.0%;">Austria: 1 attacks</div>')[0];
+                popup_79fc6a4e5e61478ca1149c986205fb19.setContent(html_32632908812b41eaa18b2370d2149fc6);
+            
+
+            circle_69309c767877459f81e27c09301e0ea9.bindPopup(popup_79fc6a4e5e61478ca1149c986205fb19);
+
+            
+        
+    
+
+            var circle_4ea716a34a46404da1bc6da55d425a71 = L.circle(
+                [40.35321757,47.46706372],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 0,
+  "radius": 0,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b54fa302f100451e81833c4d4dbbe783);
+            
+    
+            var popup_f16f852782234fdaa9f12fbc0c61521c = L.popup({maxWidth: '300'});
+
+            
+                var html_e28007ca1f4448969e3856cf68041322 = $('<div id="html_e28007ca1f4448969e3856cf68041322" style="width: 100.0%; height: 100.0%;">0</div>')[0];
+                popup_f16f852782234fdaa9f12fbc0c61521c.setContent(html_e28007ca1f4448969e3856cf68041322);
+            
+
+            circle_4ea716a34a46404da1bc6da55d425a71.bindPopup(popup_f16f852782234fdaa9f12fbc0c61521c);
+
+            
+        
+    
+
+            var circle_df992093048742d090d98e6454027977 = L.circle(
+                [24.45991732,-77.68192453],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 0,
+  "radius": 59976,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b54fa302f100451e81833c4d4dbbe783);
+            
+    
+            var popup_b4806dea017745f7a3536a858488bc9c = L.popup({maxWidth: '300'});
+
+            
+                var html_4a401af5b9ce4846a37acad646ae375d = $('<div id="html_4a401af5b9ce4846a37acad646ae375d" style="width: 100.0%; height: 100.0%;">Bahamas, The: 1 attacks</div>')[0];
+                popup_b4806dea017745f7a3536a858488bc9c.setContent(html_4a401af5b9ce4846a37acad646ae375d);
+            
+
+            circle_df992093048742d090d98e6454027977.bindPopup(popup_b4806dea017745f7a3536a858488bc9c);
+
+            
+        
+    
+
+            var circle_1478804d087440b0b06a4fdae3f34436 = L.circle(
+                [25.90740996,50.65932354],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 0,
+  "radius": 59976,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b54fa302f100451e81833c4d4dbbe783);
+            
+    
+            var popup_a191a36df478494e8835a1db1e346ca1 = L.popup({maxWidth: '300'});
+
+            
+                var html_3cc8bb5e847c4987a3a3711b146aa0da = $('<div id="html_3cc8bb5e847c4987a3a3711b146aa0da" style="width: 100.0%; height: 100.0%;">Bahrain: 3 attacks</div>')[0];
+                popup_a191a36df478494e8835a1db1e346ca1.setContent(html_3cc8bb5e847c4987a3a3711b146aa0da);
+            
+
+            circle_1478804d087440b0b06a4fdae3f34436.bindPopup(popup_a191a36df478494e8835a1db1e346ca1);
+
+            
+        
+    
+
+            var circle_e545a74b99f04458972383f434687963 = L.circle(
+                [24.08273251,90.49915527],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 0,
+  "radius": 119952,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b54fa302f100451e81833c4d4dbbe783);
+            
+    
+            var popup_cf857f13131a4b19bb34f8b3702ad5de = L.popup({maxWidth: '300'});
+
+            
+                var html_ae69d62acd574b50a3155cce4ce46967 = $('<div id="html_ae69d62acd574b50a3155cce4ce46967" style="width: 100.0%; height: 100.0%;">Bangladesh: 8 attacks</div>')[0];
+                popup_cf857f13131a4b19bb34f8b3702ad5de.setContent(html_ae69d62acd574b50a3155cce4ce46967);
+            
+
+            circle_e545a74b99f04458972383f434687963.bindPopup(popup_cf857f13131a4b19bb34f8b3702ad5de);
+
+            
+        
+    
+
+            var circle_bddb522089dc4e759a9f66edc62a2e91 = L.circle(
+                [53.58628747,27.953389],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 0,
+  "radius": 59976,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b54fa302f100451e81833c4d4dbbe783);
+            
+    
+            var popup_1a4ab99bd9b54cf1858e4e4899f6ded8 = L.popup({maxWidth: '300'});
+
+            
+                var html_5f99d0319cd642a78aeae87a5cc240e1 = $('<div id="html_5f99d0319cd642a78aeae87a5cc240e1" style="width: 100.0%; height: 100.0%;">Belarus: 1 attacks</div>')[0];
+                popup_1a4ab99bd9b54cf1858e4e4899f6ded8.setContent(html_5f99d0319cd642a78aeae87a5cc240e1);
+            
+
+            circle_bddb522089dc4e759a9f66edc62a2e91.bindPopup(popup_1a4ab99bd9b54cf1858e4e4899f6ded8);
+
+            
+        
+    
+
+            var circle_bb5629f308ab4e22bf4389a82bc7ae38 = L.circle(
+                [50.49593874,4.469936],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 0,
+  "radius": 59976,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b54fa302f100451e81833c4d4dbbe783);
+            
+    
+            var popup_f3ab6b60560641a3a0075621ddf14e3d = L.popup({maxWidth: '300'});
+
+            
+                var html_00fee65c1bae495aaca6dfb65de8666e = $('<div id="html_00fee65c1bae495aaca6dfb65de8666e" style="width: 100.0%; height: 100.0%;">Belgium: 3 attacks</div>')[0];
+                popup_f3ab6b60560641a3a0075621ddf14e3d.setContent(html_00fee65c1bae495aaca6dfb65de8666e);
+            
+
+            circle_bb5629f308ab4e22bf4389a82bc7ae38.bindPopup(popup_f3ab6b60560641a3a0075621ddf14e3d);
+
+            
+        
+    
+
+            var circle_9c3fe0fee66d47d89e0d503eff5cdeac = L.circle(
+                [-16.74518128,-65.19265691],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 0,
+  "radius": 0,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b54fa302f100451e81833c4d4dbbe783);
+            
+    
+            var popup_f5ccb78c0f6144bb863252346fe685c2 = L.popup({maxWidth: '300'});
+
+            
+                var html_91c0c416095740a59880757993e4c12d = $('<div id="html_91c0c416095740a59880757993e4c12d" style="width: 100.0%; height: 100.0%;">0</div>')[0];
+                popup_f5ccb78c0f6144bb863252346fe685c2.setContent(html_91c0c416095740a59880757993e4c12d);
+            
+
+            circle_9c3fe0fee66d47d89e0d503eff5cdeac.bindPopup(popup_f5ccb78c0f6144bb863252346fe685c2);
+
+            
+        
+    
+
+            var circle_894550dd14254fa6bb023286725174aa = L.circle(
+                [44.00040856,17.8164091],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 0,
+  "radius": 59976,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b54fa302f100451e81833c4d4dbbe783);
+            
+    
+            var popup_0577cf5068ca40f5aaaa31415260fd9a = L.popup({maxWidth: '300'});
+
+            
+                var html_1cce69f464af483e82490a383a8dfc6c = $('<div id="html_1cce69f464af483e82490a383a8dfc6c" style="width: 100.0%; height: 100.0%;">Bosnia and Herzegovina: 3 attacks</div>')[0];
+                popup_0577cf5068ca40f5aaaa31415260fd9a.setContent(html_1cce69f464af483e82490a383a8dfc6c);
+            
+
+            circle_894550dd14254fa6bb023286725174aa.bindPopup(popup_0577cf5068ca40f5aaaa31415260fd9a);
+
+            
+        
+    
+
+            var circle_c62e82108c8b44c99f3ffab5b753ec94 = L.circle(
+                [42.70160678,25.485832],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 0,
+  "radius": 59976,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b54fa302f100451e81833c4d4dbbe783);
+            
+    
+            var popup_e53b52c4b1a848d9a8637132383d3e7f = L.popup({maxWidth: '300'});
+
+            
+                var html_54af2260219d455086e656a0a7ba518a = $('<div id="html_54af2260219d455086e656a0a7ba518a" style="width: 100.0%; height: 100.0%;">Bulgaria: 1 attacks</div>')[0];
+                popup_e53b52c4b1a848d9a8637132383d3e7f.setContent(html_54af2260219d455086e656a0a7ba518a);
+            
+
+            circle_c62e82108c8b44c99f3ffab5b753ec94.bindPopup(popup_e53b52c4b1a848d9a8637132383d3e7f);
+
+            
+        
+    
+
+            var circle_67a7a72ca4bb488c98569d3df972147b = L.circle(
+                [12.22492458,-1.561591],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 0,
+  "radius": 59976,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b54fa302f100451e81833c4d4dbbe783);
+            
+    
+            var popup_22884187678940c28f2936bd1f210a89 = L.popup({maxWidth: '300'});
+
+            
+                var html_6b3ef4848d8c4cb194bb36e774d6661b = $('<div id="html_6b3ef4848d8c4cb194bb36e774d6661b" style="width: 100.0%; height: 100.0%;">Burkina Faso: 2 attacks</div>')[0];
+                popup_22884187678940c28f2936bd1f210a89.setContent(html_6b3ef4848d8c4cb194bb36e774d6661b);
+            
+
+            circle_67a7a72ca4bb488c98569d3df972147b.bindPopup(popup_22884187678940c28f2936bd1f210a89);
+
+            
+        
+    
+
+            var circle_d666a52ce8e0437780b1939292396266 = L.circle(
+                [-3.40499707,29.88592902],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 0,
+  "radius": 0,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b54fa302f100451e81833c4d4dbbe783);
+            
+    
+            var popup_b396768b067f4e28a82dd64d46450f42 = L.popup({maxWidth: '300'});
+
+            
+                var html_ceccdcbe34154cec8abdcdb7e06cc456 = $('<div id="html_ceccdcbe34154cec8abdcdb7e06cc456" style="width: 100.0%; height: 100.0%;">0</div>')[0];
+                popup_b396768b067f4e28a82dd64d46450f42.setContent(html_ceccdcbe34154cec8abdcdb7e06cc456);
+            
+
+            circle_d666a52ce8e0437780b1939292396266.bindPopup(popup_b396768b067f4e28a82dd64d46450f42);
+
+            
+        
+    
+
+            var circle_5f8a9abe0610452bb3069dd99e2e4881 = L.circle(
+                [7.38622543,12.72825915],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 0,
+  "radius": 239904,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b54fa302f100451e81833c4d4dbbe783);
+            
+    
+            var popup_ca366d62739e4a12902b61d266631004 = L.popup({maxWidth: '300'});
+
+            
+                var html_eabce50477014557ba8e31d5075155e0 = $('<div id="html_eabce50477014557ba8e31d5075155e0" style="width: 100.0%; height: 100.0%;">Cameroon: 19 attacks</div>')[0];
+                popup_ca366d62739e4a12902b61d266631004.setContent(html_eabce50477014557ba8e31d5075155e0);
+            
+
+            circle_5f8a9abe0610452bb3069dd99e2e4881.bindPopup(popup_ca366d62739e4a12902b61d266631004);
+
+            
+        
+    
+
+            var circle_2ed5dc8904884ecfb64e7105fba47dc3 = L.circle(
+                [60.36196817,-106.6983315],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 0,
+  "radius": 239904,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b54fa302f100451e81833c4d4dbbe783);
+            
+    
+            var popup_757fd79ac9f64240a738fc9fd358602a = L.popup({maxWidth: '300'});
+
+            
+                var html_60eefd6394c84f7ca1c9ff480cbd1fde = $('<div id="html_60eefd6394c84f7ca1c9ff480cbd1fde" style="width: 100.0%; height: 100.0%;">Canada: 17 attacks</div>')[0];
+                popup_757fd79ac9f64240a738fc9fd358602a.setContent(html_60eefd6394c84f7ca1c9ff480cbd1fde);
+            
+
+            circle_2ed5dc8904884ecfb64e7105fba47dc3.bindPopup(popup_757fd79ac9f64240a738fc9fd358602a);
+
+            
+        
+    
+
+            var circle_ccf19de6f9f34d51acb914c24bfda63d = L.circle(
+                [6.8254183,20.64281514],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 0,
+  "radius": 59976,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b54fa302f100451e81833c4d4dbbe783);
+            
+    
+            var popup_c0aac3403c0a46278ba25219d47fe18c = L.popup({maxWidth: '300'});
+
+            
+                var html_38b7782efd104a48b3df160e2b034f3c = $('<div id="html_38b7782efd104a48b3df160e2b034f3c" style="width: 100.0%; height: 100.0%;">Central African Republic: 3 attacks</div>')[0];
+                popup_c0aac3403c0a46278ba25219d47fe18c.setContent(html_38b7782efd104a48b3df160e2b034f3c);
+            
+
+            circle_ccf19de6f9f34d51acb914c24bfda63d.bindPopup(popup_c0aac3403c0a46278ba25219d47fe18c);
+
+            
+        
+    
+
+            var circle_4a1e432dafd84c58ac5ae2a7762b6480 = L.circle(
+                [14.80342407,18.78714064],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 0,
+  "radius": 119952,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b54fa302f100451e81833c4d4dbbe783);
+            
+    
+            var popup_2ff87371b6c94b9ba0e7b4e8e665eae5 = L.popup({maxWidth: '300'});
+
+            
+                var html_17a81bcfe25242a78a879ef06b4400a4 = $('<div id="html_17a81bcfe25242a78a879ef06b4400a4" style="width: 100.0%; height: 100.0%;">Chad: 7 attacks</div>')[0];
+                popup_2ff87371b6c94b9ba0e7b4e8e665eae5.setContent(html_17a81bcfe25242a78a879ef06b4400a4);
+            
+
+            circle_4a1e432dafd84c58ac5ae2a7762b6480.bindPopup(popup_2ff87371b6c94b9ba0e7b4e8e665eae5);
+
+            
+        
+    
+
+            var circle_4e6434bf008c441292dae7a76d7e18f2 = L.circle(
+                [-38.0176079,-71.40014474],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 0,
+  "radius": 59976,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b54fa302f100451e81833c4d4dbbe783);
+            
+    
+            var popup_dcf479b91b4a43bdac6302b50f9df956 = L.popup({maxWidth: '300'});
+
+            
+                var html_8864d1aa706246658e8e5aa59b7062d1 = $('<div id="html_8864d1aa706246658e8e5aa59b7062d1" style="width: 100.0%; height: 100.0%;">Chile: 1 attacks</div>')[0];
+                popup_dcf479b91b4a43bdac6302b50f9df956.setContent(html_8864d1aa706246658e8e5aa59b7062d1);
+            
+
+            circle_4e6434bf008c441292dae7a76d7e18f2.bindPopup(popup_dcf479b91b4a43bdac6302b50f9df956);
+
+            
+        
+    
+
+            var circle_34be8491d4574fe19cf0e6d1d49c655c = L.circle(
+                [36.7145744,103.55819197],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 0,
+  "radius": 179928,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b54fa302f100451e81833c4d4dbbe783);
+            
+    
+            var popup_44d1e8dc62d849af9b6eccaa26b26bbe = L.popup({maxWidth: '300'});
+
+            
+                var html_3de03cfba94145388323ad5043fabcb9 = $('<div id="html_3de03cfba94145388323ad5043fabcb9" style="width: 100.0%; height: 100.0%;">China: 12 attacks</div>')[0];
+                popup_44d1e8dc62d849af9b6eccaa26b26bbe.setContent(html_3de03cfba94145388323ad5043fabcb9);
+            
+
+            circle_34be8491d4574fe19cf0e6d1d49c655c.bindPopup(popup_44d1e8dc62d849af9b6eccaa26b26bbe);
+
+            
+        
+    
+
+            var circle_606cc50393394a638b5fd64118ff34b7 = L.circle(
+                [3.6818232,-73.53927436],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 0,
+  "radius": 179928,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b54fa302f100451e81833c4d4dbbe783);
+            
+    
+            var popup_fe94ba4a76384fe597270ba7b608d352 = L.popup({maxWidth: '300'});
+
+            
+                var html_d81b999fe5c144a89ee74ccb60618d58 = $('<div id="html_d81b999fe5c144a89ee74ccb60618d58" style="width: 100.0%; height: 100.0%;">Colombia: 10 attacks</div>')[0];
+                popup_fe94ba4a76384fe597270ba7b608d352.setContent(html_d81b999fe5c144a89ee74ccb60618d58);
+            
+
+            circle_606cc50393394a638b5fd64118ff34b7.bindPopup(popup_fe94ba4a76384fe597270ba7b608d352);
+
+            
+        
+    
+
+            var circle_303ab623ffcc450a87335cc483ef23a4 = L.circle(
+                [-4.05373938,23.01110741],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 0,
+  "radius": 0,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b54fa302f100451e81833c4d4dbbe783);
+            
+    
+            var popup_60a170fad3684d06b5c43b679ddd35dc = L.popup({maxWidth: '300'});
+
+            
+                var html_7300e399016646ba81758bfc69acebdd = $('<div id="html_7300e399016646ba81758bfc69acebdd" style="width: 100.0%; height: 100.0%;">0</div>')[0];
+                popup_60a170fad3684d06b5c43b679ddd35dc.setContent(html_7300e399016646ba81758bfc69acebdd);
+            
+
+            circle_303ab623ffcc450a87335cc483ef23a4.bindPopup(popup_60a170fad3684d06b5c43b679ddd35dc);
+
+            
+        
+    
+
+            var circle_22235ee0de634335a0e3cc1db652c22a = L.circle(
+                [54.71794021,9.41938953],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 0,
+  "radius": 59976,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b54fa302f100451e81833c4d4dbbe783);
+            
+    
+            var popup_34d780ba85a840db85f88192cfb74571 = L.popup({maxWidth: '300'});
+
+            
+                var html_f23b140db04a42dcb3cab38757f86594 = $('<div id="html_f23b140db04a42dcb3cab38757f86594" style="width: 100.0%; height: 100.0%;">Denmark: 1 attacks</div>')[0];
+                popup_34d780ba85a840db85f88192cfb74571.setContent(html_f23b140db04a42dcb3cab38757f86594);
+            
+
+            circle_22235ee0de634335a0e3cc1db652c22a.bindPopup(popup_34d780ba85a840db85f88192cfb74571);
+
+            
+        
+    
+
+            var circle_bd49daffa91743d18e99ad33a4799bbf = L.circle(
+                [11.75959257,42.65344839],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 0,
+  "radius": 59976,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b54fa302f100451e81833c4d4dbbe783);
+            
+    
+            var popup_6dec8f92eca045f5bd80c0edc01cc4fa = L.popup({maxWidth: '300'});
+
+            
+                var html_23359de646ca4011a60119c926f866ba = $('<div id="html_23359de646ca4011a60119c926f866ba" style="width: 100.0%; height: 100.0%;">Djibouti: 2 attacks</div>')[0];
+                popup_6dec8f92eca045f5bd80c0edc01cc4fa.setContent(html_23359de646ca4011a60119c926f866ba);
+            
+
+            circle_bd49daffa91743d18e99ad33a4799bbf.bindPopup(popup_6dec8f92eca045f5bd80c0edc01cc4fa);
+
+            
+        
+    
+
+            var circle_b457f66788be462389d04f9f634b653a = L.circle(
+                [26.71650873,30.8025],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 0,
+  "radius": 359856,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b54fa302f100451e81833c4d4dbbe783);
+            
+    
+            var popup_667f2764506e4210a995da40925309e0 = L.popup({maxWidth: '300'});
+
+            
+                var html_23cdc91beded459597b590b049e046e6 = $('<div id="html_23cdc91beded459597b590b049e046e6" style="width: 100.0%; height: 100.0%;">Egypt, Arab Rep.: 43 attacks</div>')[0];
+                popup_667f2764506e4210a995da40925309e0.setContent(html_23cdc91beded459597b590b049e046e6);
+            
+
+            circle_b457f66788be462389d04f9f634b653a.bindPopup(popup_667f2764506e4210a995da40925309e0);
+
+            
+        
+    
+
+            var circle_60ff486543984460aa5dce867d76e324 = L.circle(
+                [9.10727589,39.84148164],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 0,
+  "radius": 59976,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b54fa302f100451e81833c4d4dbbe783);
+            
+    
+            var popup_9c130f47e0174d61a7c1a026b255b78c = L.popup({maxWidth: '300'});
+
+            
+                var html_ebdf1d13d6ec4d53b5e3e0fde1021bf1 = $('<div id="html_ebdf1d13d6ec4d53b5e3e0fde1021bf1" style="width: 100.0%; height: 100.0%;">Ethiopia: 3 attacks</div>')[0];
+                popup_9c130f47e0174d61a7c1a026b255b78c.setContent(html_ebdf1d13d6ec4d53b5e3e0fde1021bf1);
+            
+
+            circle_60ff486543984460aa5dce867d76e324.bindPopup(popup_9c130f47e0174d61a7c1a026b255b78c);
+
+            
+        
+    
+
+            var circle_f2942871354548c5a045b1f9348f2b63 = L.circle(
+                [46.48372145,2.60926281],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 0,
+  "radius": 239904,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b54fa302f100451e81833c4d4dbbe783);
+            
+    
+            var popup_c7f7b58700b9475ea2a56fa53b9f7ec3 = L.popup({maxWidth: '300'});
+
+            
+                var html_df72ce1078924f44ad7940860a7ba859 = $('<div id="html_df72ce1078924f44ad7940860a7ba859" style="width: 100.0%; height: 100.0%;">France: 16 attacks</div>')[0];
+                popup_c7f7b58700b9475ea2a56fa53b9f7ec3.setContent(html_df72ce1078924f44ad7940860a7ba859);
+            
+
+            circle_f2942871354548c5a045b1f9348f2b63.bindPopup(popup_c7f7b58700b9475ea2a56fa53b9f7ec3);
+
+            
+        
+    
+
+            var circle_960eede3f1594f998bc922ea32780262 = L.circle(
+                [-0.43426435,11.43916591],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 0,
+  "radius": 0,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b54fa302f100451e81833c4d4dbbe783);
+            
+    
+            var popup_7dae6e22ceff4339ae210c8626107bcc = L.popup({maxWidth: '300'});
+
+            
+                var html_10f9afbb101742e2902d8af7c9e00d93 = $('<div id="html_10f9afbb101742e2902d8af7c9e00d93" style="width: 100.0%; height: 100.0%;">0</div>')[0];
+                popup_7dae6e22ceff4339ae210c8626107bcc.setContent(html_10f9afbb101742e2902d8af7c9e00d93);
+            
+
+            circle_960eede3f1594f998bc922ea32780262.bindPopup(popup_7dae6e22ceff4339ae210c8626107bcc);
+
+            
+        
+    
+
+            var circle_c1add4d4d354474a914dd5d58e3082a3 = L.circle(
+                [41.82754301,44.17329916],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 0,
+  "radius": 0,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b54fa302f100451e81833c4d4dbbe783);
+            
+    
+            var popup_487121a5734e49ac858aba3e2c47ae69 = L.popup({maxWidth: '300'});
+
+            
+                var html_2dfa4ab54d454daeb9555b816d81ec61 = $('<div id="html_2dfa4ab54d454daeb9555b816d81ec61" style="width: 100.0%; height: 100.0%;">0</div>')[0];
+                popup_487121a5734e49ac858aba3e2c47ae69.setContent(html_2dfa4ab54d454daeb9555b816d81ec61);
+            
+
+            circle_c1add4d4d354474a914dd5d58e3082a3.bindPopup(popup_487121a5734e49ac858aba3e2c47ae69);
+
+            
+        
+    
+
+            var circle_b353b56bcd504b2bb1547e06e180189b = L.circle(
+                [50.82871201,10.97887975],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 0,
+  "radius": 59976,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b54fa302f100451e81833c4d4dbbe783);
+            
+    
+            var popup_03abd04ee32549ff874fd3dadb64603c = L.popup({maxWidth: '300'});
+
+            
+                var html_c7e8dd9f3ed24fab8abebe8c5027b4e2 = $('<div id="html_c7e8dd9f3ed24fab8abebe8c5027b4e2" style="width: 100.0%; height: 100.0%;">Germany: 2 attacks</div>')[0];
+                popup_03abd04ee32549ff874fd3dadb64603c.setContent(html_c7e8dd9f3ed24fab8abebe8c5027b4e2);
+            
+
+            circle_b353b56bcd504b2bb1547e06e180189b.bindPopup(popup_03abd04ee32549ff874fd3dadb64603c);
+
+            
+        
+    
+
+            var circle_c065fc51a6174b2cbf389a5df1406fad = L.circle(
+                [38.52254746,24.53794505],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 0,
+  "radius": 0,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b54fa302f100451e81833c4d4dbbe783);
+            
+    
+            var popup_efe5b3b2c46f4e93a526d4267d9335f1 = L.popup({maxWidth: '300'});
+
+            
+                var html_d9cfbe1db7e7446db473de84784bd2ed = $('<div id="html_d9cfbe1db7e7446db473de84784bd2ed" style="width: 100.0%; height: 100.0%;">0</div>')[0];
+                popup_efe5b3b2c46f4e93a526d4267d9335f1.setContent(html_d9cfbe1db7e7446db473de84784bd2ed);
+            
+
+            circle_c065fc51a6174b2cbf389a5df1406fad.bindPopup(popup_efe5b3b2c46f4e93a526d4267d9335f1);
+
+            
+        
+    
+
+            var circle_d48438b053284ecc99fc460c2eac9e87 = L.circle(
+                [15.72598421,-89.96707712],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 0,
+  "radius": 0,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b54fa302f100451e81833c4d4dbbe783);
+            
+    
+            var popup_d833da6c2af643ab8a6b9541a464266e = L.popup({maxWidth: '300'});
+
+            
+                var html_074d25f185154602b973529500b7b590 = $('<div id="html_074d25f185154602b973529500b7b590" style="width: 100.0%; height: 100.0%;">0</div>')[0];
+                popup_d833da6c2af643ab8a6b9541a464266e.setContent(html_074d25f185154602b973529500b7b590);
+            
+
+            circle_d48438b053284ecc99fc460c2eac9e87.bindPopup(popup_d833da6c2af643ab8a6b9541a464266e);
+
+            
+        
+    
+
+            var circle_7811b98fb6d94a61860b442b24208e50 = L.circle(
+                [9.94301472,-11.31711839],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 0,
+  "radius": 59976,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b54fa302f100451e81833c4d4dbbe783);
+            
+    
+            var popup_bdc2a90f871c4f7e88f6870b3a89659b = L.popup({maxWidth: '300'});
+
+            
+                var html_046c1820d89846348b37bbd39a07328b = $('<div id="html_046c1820d89846348b37bbd39a07328b" style="width: 100.0%; height: 100.0%;">Guinea: 1 attacks</div>')[0];
+                popup_bdc2a90f871c4f7e88f6870b3a89659b.setContent(html_046c1820d89846348b37bbd39a07328b);
+            
+
+            circle_7811b98fb6d94a61860b442b24208e50.bindPopup(popup_bdc2a90f871c4f7e88f6870b3a89659b);
+
+            
+        
+    
+
+            var circle_b9913a6f4bda40e88929aa08246de2a1 = L.circle(
+                [19.07430861,-72.79607526],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 0,
+  "radius": 0,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b54fa302f100451e81833c4d4dbbe783);
+            
+    
+            var popup_d5857258d29742d88d9807b292c946c0 = L.popup({maxWidth: '300'});
+
+            
+                var html_23f2e990489043339ccdc75e6f769dba = $('<div id="html_23f2e990489043339ccdc75e6f769dba" style="width: 100.0%; height: 100.0%;">0</div>')[0];
+                popup_d5857258d29742d88d9807b292c946c0.setContent(html_23f2e990489043339ccdc75e6f769dba);
+            
+
+            circle_b9913a6f4bda40e88929aa08246de2a1.bindPopup(popup_d5857258d29742d88d9807b292c946c0);
+
+            
+        
+    
+
+            var circle_2fcbe6ab3a1a4511bf7044a768d1b5de = L.circle(
+                [14.64994423,-87.01643713],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 0,
+  "radius": 0,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b54fa302f100451e81833c4d4dbbe783);
+            
+    
+            var popup_c43b4f6d69a840c3a19340b8214c19f6 = L.popup({maxWidth: '300'});
+
+            
+                var html_a7b5cf6741d941bd8e5950b51ee51324 = $('<div id="html_a7b5cf6741d941bd8e5950b51ee51324" style="width: 100.0%; height: 100.0%;">0</div>')[0];
+                popup_c43b4f6d69a840c3a19340b8214c19f6.setContent(html_a7b5cf6741d941bd8e5950b51ee51324);
+            
+
+            circle_2fcbe6ab3a1a4511bf7044a768d1b5de.bindPopup(popup_c43b4f6d69a840c3a19340b8214c19f6);
+
+            
+        
+    
+
+            var circle_62edc10d692d44f4b04defdf5ce839fc = L.circle(
+                [46.97670384,19.35499657],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 0,
+  "radius": 0,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b54fa302f100451e81833c4d4dbbe783);
+            
+    
+            var popup_88fecf81388a49d1a734a83492fa6de4 = L.popup({maxWidth: '300'});
+
+            
+                var html_615715618e2b475bab899f5f572bb637 = $('<div id="html_615715618e2b475bab899f5f572bb637" style="width: 100.0%; height: 100.0%;">0</div>')[0];
+                popup_88fecf81388a49d1a734a83492fa6de4.setContent(html_615715618e2b475bab899f5f572bb637);
+            
+
+            circle_62edc10d692d44f4b04defdf5ce839fc.bindPopup(popup_88fecf81388a49d1a734a83492fa6de4);
+
+            
+        
+    
+
+            var circle_f7449062554244e9879214ce76714f42 = L.circle(
+                [20.46549519,78.50146222],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 0,
+  "radius": 299880,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b54fa302f100451e81833c4d4dbbe783);
+            
+    
+            var popup_dc732fe23e3d487cad6acad59457f28e = L.popup({maxWidth: '300'});
+
+            
+                var html_0192f6b759994f878aaa3cae802c773d = $('<div id="html_0192f6b759994f878aaa3cae802c773d" style="width: 100.0%; height: 100.0%;">India: 34 attacks</div>')[0];
+                popup_dc732fe23e3d487cad6acad59457f28e.setContent(html_0192f6b759994f878aaa3cae802c773d);
+            
+
+            circle_f7449062554244e9879214ce76714f42.bindPopup(popup_dc732fe23e3d487cad6acad59457f28e);
+
+            
+        
+    
+
+            var circle_72cbc707213f402b915ff628cec202c6 = L.circle(
+                [-7.33461519,72.4242528],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 0,
+  "radius": 59976,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b54fa302f100451e81833c4d4dbbe783);
+            
+    
+            var popup_173db79e1a7445c7b986f0edbefdf7f8 = L.popup({maxWidth: '300'});
+
+            
+                var html_aceb0942152a4066b2b89e4650cdcf56 = $('<div id="html_aceb0942152a4066b2b89e4650cdcf56" style="width: 100.0%; height: 100.0%;">Indian Ocean Territories: 3 attacks</div>')[0];
+                popup_173db79e1a7445c7b986f0edbefdf7f8.setContent(html_aceb0942152a4066b2b89e4650cdcf56);
+            
+
+            circle_72cbc707213f402b915ff628cec202c6.bindPopup(popup_173db79e1a7445c7b986f0edbefdf7f8);
+
+            
+        
+    
+
+            var circle_0c949d47da2a4a0782487ea4e63ef66b = L.circle(
+                [-2.4622968,121.18329789],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 0,
+  "radius": 119952,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b54fa302f100451e81833c4d4dbbe783);
+            
+    
+            var popup_9ef71c13159f41d7838a0af35e875d89 = L.popup({maxWidth: '300'});
+
+            
+                var html_5a6d7200204a471a9c3b768db7e39f13 = $('<div id="html_5a6d7200204a471a9c3b768db7e39f13" style="width: 100.0%; height: 100.0%;">Indonesia: 5 attacks</div>')[0];
+                popup_9ef71c13159f41d7838a0af35e875d89.setContent(html_5a6d7200204a471a9c3b768db7e39f13);
+            
+
+            circle_0c949d47da2a4a0782487ea4e63ef66b.bindPopup(popup_9ef71c13159f41d7838a0af35e875d89);
+
+            
+        
+    
+
+            var circle_6e8500af30e64169a0c850fc7ad24d8a = L.circle(
+                [31.40240324,51.28204814],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 0,
+  "radius": 59976,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b54fa302f100451e81833c4d4dbbe783);
+            
+    
+            var popup_06415566631b49cd9389fa7604e5a955 = L.popup({maxWidth: '300'});
+
+            
+                var html_4cb216154b8646719ead5c310a209f02 = $('<div id="html_4cb216154b8646719ead5c310a209f02" style="width: 100.0%; height: 100.0%;">Iran, Islamic Rep.: 1 attacks</div>')[0];
+                popup_06415566631b49cd9389fa7604e5a955.setContent(html_4cb216154b8646719ead5c310a209f02);
+            
+
+            circle_6e8500af30e64169a0c850fc7ad24d8a.bindPopup(popup_06415566631b49cd9389fa7604e5a955);
+
+            
+        
+    
+
+            var circle_d2c92314327c4e88beb8fc36f30c5803 = L.circle(
+                [32.90170182,43.19590056],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 0,
+  "radius": 959616,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b54fa302f100451e81833c4d4dbbe783);
+            
+    
+            var popup_0669928e1c4b497bb4387c78925337e8 = L.popup({maxWidth: '300'});
+
+            
+                var html_66359751c4df4911a6afeb60b0059c08 = $('<div id="html_66359751c4df4911a6afeb60b0059c08" style="width: 100.0%; height: 100.0%;">Iraq: 278 attacks</div>')[0];
+                popup_0669928e1c4b497bb4387c78925337e8.setContent(html_66359751c4df4911a6afeb60b0059c08);
+            
+
+            circle_d2c92314327c4e88beb8fc36f30c5803.bindPopup(popup_0669928e1c4b497bb4387c78925337e8);
+
+            
+        
+    
+
+            var circle_e9550bfa23114578ba157927c2e50276 = L.circle(
+                [30.85883075,34.91753797],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 0,
+  "radius": 419832,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b54fa302f100451e81833c4d4dbbe783);
+            
+    
+            var popup_8e531226f7ae4159a215e5d93c9e48d7 = L.popup({maxWidth: '300'});
+
+            
+                var html_882213d2f54d48558ed051b06af76121 = $('<div id="html_882213d2f54d48558ed051b06af76121" style="width: 100.0%; height: 100.0%;">Israel: 53 attacks</div>')[0];
+                popup_8e531226f7ae4159a215e5d93c9e48d7.setContent(html_882213d2f54d48558ed051b06af76121);
+            
+
+            circle_e9550bfa23114578ba157927c2e50276.bindPopup(popup_8e531226f7ae4159a215e5d93c9e48d7);
+
+            
+        
+    
+
+            var circle_0bf557f96c1d42529af5bc6c4fa6acaf = L.circle(
+                [41.7781084,12.67725128],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 0,
+  "radius": 119952,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b54fa302f100451e81833c4d4dbbe783);
+            
+    
+            var popup_d3bde8cf3dbb4d78b524525cbc8c585e = L.popup({maxWidth: '300'});
+
+            
+                var html_b6ffe06ca92c491eab7c59c046457995 = $('<div id="html_b6ffe06ca92c491eab7c59c046457995" style="width: 100.0%; height: 100.0%;">Italy: 4 attacks</div>')[0];
+                popup_d3bde8cf3dbb4d78b524525cbc8c585e.setContent(html_b6ffe06ca92c491eab7c59c046457995);
+            
+
+            circle_0bf557f96c1d42529af5bc6c4fa6acaf.bindPopup(popup_d3bde8cf3dbb4d78b524525cbc8c585e);
+
+            
+        
+    
+
+            var circle_29d1613afc8349c0bb73fcadcaa19b2f = L.circle(
+                [7.59684148,-5.49214636],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 0,
+  "radius": 59976,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b54fa302f100451e81833c4d4dbbe783);
+            
+    
+            var popup_e7ce0c11d337477b9f1e6cc1cd0a2836 = L.popup({maxWidth: '300'});
+
+            
+                var html_4727cb5755264fe3a11a917c70e5cd78 = $('<div id="html_4727cb5755264fe3a11a917c70e5cd78" style="width: 100.0%; height: 100.0%;">Côte dIvoire: 3 attacks</div>')[0];
+                popup_e7ce0c11d337477b9f1e6cc1cd0a2836.setContent(html_4727cb5755264fe3a11a917c70e5cd78);
+            
+
+            circle_29d1613afc8349c0bb73fcadcaa19b2f.bindPopup(popup_e7ce0c11d337477b9f1e6cc1cd0a2836);
+
+            
+        
+    
+
+            var circle_4693f7029b9b40b5b0ac57a49b556426 = L.circle(
+                [37.51848822,137.67066061],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 0,
+  "radius": 59976,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b54fa302f100451e81833c4d4dbbe783);
+            
+    
+            var popup_1c9ed3bc044a4d3dbe32501a44e80b53 = L.popup({maxWidth: '300'});
+
+            
+                var html_2f42a73bf6604df785f9afbb8d83fc9b = $('<div id="html_2f42a73bf6604df785f9afbb8d83fc9b" style="width: 100.0%; height: 100.0%;">Japan: 1 attacks</div>')[0];
+                popup_1c9ed3bc044a4d3dbe32501a44e80b53.setContent(html_2f42a73bf6604df785f9afbb8d83fc9b);
+            
+
+            circle_4693f7029b9b40b5b0ac57a49b556426.bindPopup(popup_1c9ed3bc044a4d3dbe32501a44e80b53);
+
+            
+        
+    
+
+            var circle_d477aaf7f1ba4fc7932693f8f9c72fa4 = L.circle(
+                [31.31616588,36.3757551],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 0,
+  "radius": 0,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b54fa302f100451e81833c4d4dbbe783);
+            
+    
+            var popup_bf7f2303589e4451914b1d566f74ff6f = L.popup({maxWidth: '300'});
+
+            
+                var html_899ab6713f854607877d14acd22cd9b4 = $('<div id="html_899ab6713f854607877d14acd22cd9b4" style="width: 100.0%; height: 100.0%;">0</div>')[0];
+                popup_bf7f2303589e4451914b1d566f74ff6f.setContent(html_899ab6713f854607877d14acd22cd9b4);
+            
+
+            circle_d477aaf7f1ba4fc7932693f8f9c72fa4.bindPopup(popup_bf7f2303589e4451914b1d566f74ff6f);
+
+            
+        
+    
+
+            var circle_2ff1a0287b5e41efa69c7e3d20164201 = L.circle(
+                [45.38592596,68.81334444],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 0,
+  "radius": 59976,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b54fa302f100451e81833c4d4dbbe783);
+            
+    
+            var popup_99d109743d5d45e5944515ec29c4901a = L.popup({maxWidth: '300'});
+
+            
+                var html_0f7d9bed6164498886c9d3ae37df2c7c = $('<div id="html_0f7d9bed6164498886c9d3ae37df2c7c" style="width: 100.0%; height: 100.0%;">Kazakhstan: 1 attacks</div>')[0];
+                popup_99d109743d5d45e5944515ec29c4901a.setContent(html_0f7d9bed6164498886c9d3ae37df2c7c);
+            
+
+            circle_2ff1a0287b5e41efa69c7e3d20164201.bindPopup(popup_99d109743d5d45e5944515ec29c4901a);
+
+            
+        
+    
+
+            var circle_eafda30f1b864e36b04d005d88330f8b = L.circle(
+                [0.19582452,37.97212297],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 0,
+  "radius": 239904,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b54fa302f100451e81833c4d4dbbe783);
+            
+    
+            var popup_bd254ab71d0547a19e5211e40a11431c = L.popup({maxWidth: '300'});
+
+            
+                var html_cb4a48d4638f4346a3461f93dbf2f608 = $('<div id="html_cb4a48d4638f4346a3461f93dbf2f608" style="width: 100.0%; height: 100.0%;">Kenya: 20 attacks</div>')[0];
+                popup_bd254ab71d0547a19e5211e40a11431c.setContent(html_cb4a48d4638f4346a3461f93dbf2f608);
+            
+
+            circle_eafda30f1b864e36b04d005d88330f8b.bindPopup(popup_bd254ab71d0547a19e5211e40a11431c);
+
+            
+        
+    
+
+            var circle_2d997a3d2da04952b5053cfb48444310 = L.circle(
+                [42.667542,21.166191],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 0,
+  "radius": 59976,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b54fa302f100451e81833c4d4dbbe783);
+            
+    
+            var popup_e92938eaba2b43429e2e69f2d1211550 = L.popup({maxWidth: '300'});
+
+            
+                var html_237a4fb688704175bbdf74bc8384b894 = $('<div id="html_237a4fb688704175bbdf74bc8384b894" style="width: 100.0%; height: 100.0%;">Kosovo: 1 attacks</div>')[0];
+                popup_e92938eaba2b43429e2e69f2d1211550.setContent(html_237a4fb688704175bbdf74bc8384b894);
+            
+
+            circle_2d997a3d2da04952b5053cfb48444310.bindPopup(popup_e92938eaba2b43429e2e69f2d1211550);
+
+            
+        
+    
+
+            var circle_f62da5fc00be4d4482328df54a17997b = L.circle(
+                [29.43253341,47.71798405],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 0,
+  "radius": 59976,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b54fa302f100451e81833c4d4dbbe783);
+            
+    
+            var popup_e43c7509134140c7a294c67c006c6ed1 = L.popup({maxWidth: '300'});
+
+            
+                var html_69f821cfa3d84dd08e2849673f08300f = $('<div id="html_69f821cfa3d84dd08e2849673f08300f" style="width: 100.0%; height: 100.0%;">Kuwait: 1 attacks</div>')[0];
+                popup_e43c7509134140c7a294c67c006c6ed1.setContent(html_69f821cfa3d84dd08e2849673f08300f);
+            
+
+            circle_f62da5fc00be4d4482328df54a17997b.bindPopup(popup_e43c7509134140c7a294c67c006c6ed1);
+
+            
+        
+    
+
+            var circle_af8a6a9ec8c74fce87b2b948c24db0c6 = L.circle(
+                [41.11509878,74.25524574],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 0,
+  "radius": 0,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b54fa302f100451e81833c4d4dbbe783);
+            
+    
+            var popup_75b02a512c8d4cf585bf901c1e8cc182 = L.popup({maxWidth: '300'});
+
+            
+                var html_f64e84b204f14797992ac7fa8608e787 = $('<div id="html_f64e84b204f14797992ac7fa8608e787" style="width: 100.0%; height: 100.0%;">0</div>')[0];
+                popup_75b02a512c8d4cf585bf901c1e8cc182.setContent(html_f64e84b204f14797992ac7fa8608e787);
+            
+
+            circle_af8a6a9ec8c74fce87b2b948c24db0c6.bindPopup(popup_75b02a512c8d4cf585bf901c1e8cc182);
+
+            
+        
+    
+
+            var circle_9ece57ee01964ae6bbc45e42be1f4203 = L.circle(
+                [17.76075593,103.61611347],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 0,
+  "radius": 59976,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b54fa302f100451e81833c4d4dbbe783);
+            
+    
+            var popup_57c3150be0ee4055abd1a75d392b7b02 = L.popup({maxWidth: '300'});
+
+            
+                var html_3d7176b5df1c40678706422c423633b4 = $('<div id="html_3d7176b5df1c40678706422c423633b4" style="width: 100.0%; height: 100.0%;">Lao PDR: 1 attacks</div>')[0];
+                popup_57c3150be0ee4055abd1a75d392b7b02.setContent(html_3d7176b5df1c40678706422c423633b4);
+            
+
+            circle_9ece57ee01964ae6bbc45e42be1f4203.bindPopup(popup_57c3150be0ee4055abd1a75d392b7b02);
+
+            
+        
+    
+
+            var circle_1c547ace2bf64587bfdb1ffd1d040936 = L.circle(
+                [34.08249284,35.66454309],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 0,
+  "radius": 239904,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b54fa302f100451e81833c4d4dbbe783);
+            
+    
+            var popup_2749b10b22fb472191879d7e17218ded = L.popup({maxWidth: '300'});
+
+            
+                var html_6e096c5dba0e49399f48a5c429dde6e5 = $('<div id="html_6e096c5dba0e49399f48a5c429dde6e5" style="width: 100.0%; height: 100.0%;">Lebanon: 20 attacks</div>')[0];
+                popup_2749b10b22fb472191879d7e17218ded.setContent(html_6e096c5dba0e49399f48a5c429dde6e5);
+            
+
+            circle_1c547ace2bf64587bfdb1ffd1d040936.bindPopup(popup_2749b10b22fb472191879d7e17218ded);
+
+            
+        
+    
+
+            var circle_60b62f7b9e594d8ca99e003a891315e9 = L.circle(
+                [27.06902914,18.19513987],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 0,
+  "radius": 239904,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b54fa302f100451e81833c4d4dbbe783);
+            
+    
+            var popup_9a1f3578a7b64429b4e4fb8bf7365784 = L.popup({maxWidth: '300'});
+
+            
+                var html_3eb7441930304a8cbf82196995eaed57 = $('<div id="html_3eb7441930304a8cbf82196995eaed57" style="width: 100.0%; height: 100.0%;">Libya: 24 attacks</div>')[0];
+                popup_9a1f3578a7b64429b4e4fb8bf7365784.setContent(html_3eb7441930304a8cbf82196995eaed57);
+            
+
+            circle_60b62f7b9e594d8ca99e003a891315e9.bindPopup(popup_9a1f3578a7b64429b4e4fb8bf7365784);
+
+            
+        
+    
+
+            var circle_ff86901dde05431cabba3f7f2c434cd5 = L.circle(
+                [-19.79858543,46.97898228],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 0,
+  "radius": 59976,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b54fa302f100451e81833c4d4dbbe783);
+            
+    
+            var popup_f0c0fe7fd48b4067b9f31de1e2f044a8 = L.popup({maxWidth: '300'});
+
+            
+                var html_dd33a88521834964b36c5b8025739218 = $('<div id="html_dd33a88521834964b36c5b8025739218" style="width: 100.0%; height: 100.0%;">Madagascar: 2 attacks</div>')[0];
+                popup_f0c0fe7fd48b4067b9f31de1e2f044a8.setContent(html_dd33a88521834964b36c5b8025739218);
+            
+
+            circle_ff86901dde05431cabba3f7f2c434cd5.bindPopup(popup_f0c0fe7fd48b4067b9f31de1e2f044a8);
+
+            
+        
+    
+
+            var circle_6c71686c7df84975aff6777357a756d1 = L.circle(
+                [4.97345793,106.5460905],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 0,
+  "radius": 59976,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b54fa302f100451e81833c4d4dbbe783);
+            
+    
+            var popup_d63633b086c54c01aaeb09a2149fb245 = L.popup({maxWidth: '300'});
+
+            
+                var html_ee73cfcb917d404eb15f8a8c2167e131 = $('<div id="html_ee73cfcb917d404eb15f8a8c2167e131" style="width: 100.0%; height: 100.0%;">Malaysia: 1 attacks</div>')[0];
+                popup_d63633b086c54c01aaeb09a2149fb245.setContent(html_ee73cfcb917d404eb15f8a8c2167e131);
+            
+
+            circle_6c71686c7df84975aff6777357a756d1.bindPopup(popup_d63633b086c54c01aaeb09a2149fb245);
+
+            
+        
+    
+
+            var circle_03f90cd5e253492c8f81cae123f77fd3 = L.circle(
+                [17.69385811,-1.9636873],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 0,
+  "radius": 179928,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b54fa302f100451e81833c4d4dbbe783);
+            
+    
+            var popup_dbf6b5c57eed4a759f17491a3eacbb88 = L.popup({maxWidth: '300'});
+
+            
+                var html_4e5f54f9dcca4c43a13e9b67acf21d0b = $('<div id="html_4e5f54f9dcca4c43a13e9b67acf21d0b" style="width: 100.0%; height: 100.0%;">Mali: 14 attacks</div>')[0];
+                popup_dbf6b5c57eed4a759f17491a3eacbb88.setContent(html_4e5f54f9dcca4c43a13e9b67acf21d0b);
+            
+
+            circle_03f90cd5e253492c8f81cae123f77fd3.bindPopup(popup_dbf6b5c57eed4a759f17491a3eacbb88);
+
+            
+        
+    
+
+            var circle_dddffec16d064feaa6064272b2f663be = L.circle(
+                [35.89706403,14.43687877],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 0,
+  "radius": 0,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b54fa302f100451e81833c4d4dbbe783);
+            
+    
+            var popup_5e1eceef07bb4755b6eb4678e6e8cdb8 = L.popup({maxWidth: '300'});
+
+            
+                var html_17d64143858c4c0989eae61c18645fd4 = $('<div id="html_17d64143858c4c0989eae61c18645fd4" style="width: 100.0%; height: 100.0%;">0</div>')[0];
+                popup_5e1eceef07bb4755b6eb4678e6e8cdb8.setContent(html_17d64143858c4c0989eae61c18645fd4);
+            
+
+            circle_dddffec16d064feaa6064272b2f663be.bindPopup(popup_5e1eceef07bb4755b6eb4678e6e8cdb8);
+
+            
+        
+    
+
+            var circle_9bd2c1335f5c4c4695bbd324fd07b84d = L.circle(
+                [22.92036676,-102.33305344],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 0,
+  "radius": 59976,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b54fa302f100451e81833c4d4dbbe783);
+            
+    
+            var popup_a1bdfd049dae4cb190c57a9dfafd12fa = L.popup({maxWidth: '300'});
+
+            
+                var html_ce60b8a19daa453aaf7236d51172aec2 = $('<div id="html_ce60b8a19daa453aaf7236d51172aec2" style="width: 100.0%; height: 100.0%;">Mexico: 3 attacks</div>')[0];
+                popup_a1bdfd049dae4cb190c57a9dfafd12fa.setContent(html_ce60b8a19daa453aaf7236d51172aec2);
+            
+
+            circle_9bd2c1335f5c4c4695bbd324fd07b84d.bindPopup(popup_a1bdfd049dae4cb190c57a9dfafd12fa);
+
+            
+        
+    
+
+            var circle_6629777887f1471086af1238f874d80c = L.circle(
+                [31.95441758,-7.26839325],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 0,
+  "radius": 59976,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b54fa302f100451e81833c4d4dbbe783);
+            
+    
+            var popup_3205476acda3413abfcab81756e83ca1 = L.popup({maxWidth: '300'});
+
+            
+                var html_c785ab45d4cb496ba8ffbd8106ec90a8 = $('<div id="html_c785ab45d4cb496ba8ffbd8106ec90a8" style="width: 100.0%; height: 100.0%;">Morocco: 1 attacks</div>')[0];
+                popup_3205476acda3413abfcab81756e83ca1.setContent(html_c785ab45d4cb496ba8ffbd8106ec90a8);
+            
+
+            circle_6629777887f1471086af1238f874d80c.bindPopup(popup_3205476acda3413abfcab81756e83ca1);
+
+            
+        
+    
+
+            var circle_48201746e1e746f9b06a003086bd5832 = L.circle(
+                [-19.07617816,33.81570282],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 0,
+  "radius": 59976,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b54fa302f100451e81833c4d4dbbe783);
+            
+    
+            var popup_67e49ba3a8df4c8ab8ba99537ab5f966 = L.popup({maxWidth: '300'});
+
+            
+                var html_9bb0792df42640a084a8fce8d4bab631 = $('<div id="html_9bb0792df42640a084a8fce8d4bab631" style="width: 100.0%; height: 100.0%;">Mozambique: 1 attacks</div>')[0];
+                popup_67e49ba3a8df4c8ab8ba99537ab5f966.setContent(html_9bb0792df42640a084a8fce8d4bab631);
+            
+
+            circle_48201746e1e746f9b06a003086bd5832.bindPopup(popup_67e49ba3a8df4c8ab8ba99537ab5f966);
+
+            
+        
+    
+
+            var circle_10ef5fbda08646d5bb98a73083517018 = L.circle(
+                [19.2098538,96.54949272],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 0,
+  "radius": 59976,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b54fa302f100451e81833c4d4dbbe783);
+            
+    
+            var popup_70927b4eefd447ae994af089bb540e87 = L.popup({maxWidth: '300'});
+
+            
+                var html_9f830afda4bd4c81a6ae40942c89965b = $('<div id="html_9f830afda4bd4c81a6ae40942c89965b" style="width: 100.0%; height: 100.0%;">Myanmar: 1 attacks</div>')[0];
+                popup_70927b4eefd447ae994af089bb540e87.setContent(html_9f830afda4bd4c81a6ae40942c89965b);
+            
+
+            circle_10ef5fbda08646d5bb98a73083517018.bindPopup(popup_70927b4eefd447ae994af089bb540e87);
+
+            
+        
+    
+
+            var circle_6b5c626d48c345d69a6f3e9678f21d47 = L.circle(
+                [28.2843077,83.98119373],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 0,
+  "radius": 59976,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b54fa302f100451e81833c4d4dbbe783);
+            
+    
+            var popup_8f0296ab9a284a30aea919309697e09b = L.popup({maxWidth: '300'});
+
+            
+                var html_de84e69404244c46818b34c6472353ef = $('<div id="html_de84e69404244c46818b34c6472353ef" style="width: 100.0%; height: 100.0%;">Nepal: 2 attacks</div>')[0];
+                popup_8f0296ab9a284a30aea919309697e09b.setContent(html_de84e69404244c46818b34c6472353ef);
+            
+
+            circle_6b5c626d48c345d69a6f3e9678f21d47.bindPopup(popup_8f0296ab9a284a30aea919309697e09b);
+
+            
+        
+    
+
+            var circle_341f525d2e79491aaf2d0b82697861df = L.circle(
+                [52.33939951,4.98914998],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 0,
+  "radius": 59976,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b54fa302f100451e81833c4d4dbbe783);
+            
+    
+            var popup_2f2cf2236d4f449eb234b1afe054057f = L.popup({maxWidth: '300'});
+
+            
+                var html_7835f41629324712b87c3abc7fd6750e = $('<div id="html_7835f41629324712b87c3abc7fd6750e" style="width: 100.0%; height: 100.0%;">Netherlands: 1 attacks</div>')[0];
+                popup_2f2cf2236d4f449eb234b1afe054057f.setContent(html_7835f41629324712b87c3abc7fd6750e);
+            
+
+            circle_341f525d2e79491aaf2d0b82697861df.bindPopup(popup_2f2cf2236d4f449eb234b1afe054057f);
+
+            
+        
+    
+
+            var circle_41de9a8b7c1244d4b51c5863f1288bf5 = L.circle(
+                [17.23446679,8.2354786],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 0,
+  "radius": 179928,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b54fa302f100451e81833c4d4dbbe783);
+            
+    
+            var popup_84dfeccb41854a178e88021e7f40dc68 = L.popup({maxWidth: '300'});
+
+            
+                var html_98d9dc4bac5140eeacb1d02f737c30fe = $('<div id="html_98d9dc4bac5140eeacb1d02f737c30fe" style="width: 100.0%; height: 100.0%;">Niger: 10 attacks</div>')[0];
+                popup_84dfeccb41854a178e88021e7f40dc68.setContent(html_98d9dc4bac5140eeacb1d02f737c30fe);
+            
+
+            circle_41de9a8b7c1244d4b51c5863f1288bf5.bindPopup(popup_84dfeccb41854a178e88021e7f40dc68);
+
+            
+        
+    
+
+            var circle_130113c17b984a58998d6c845348e8d4 = L.circle(
+                [9.02165273,7.82933373],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 0,
+  "radius": 659736,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b54fa302f100451e81833c4d4dbbe783);
+            
+    
+            var popup_c4f85dcbdd3d4fd385c5f280a77ff6f0 = L.popup({maxWidth: '300'});
+
+            
+                var html_99320a4deb2442c4b4411a527089ca5c = $('<div id="html_99320a4deb2442c4b4411a527089ca5c" style="width: 100.0%; height: 100.0%;">Nigeria: 125 attacks</div>')[0];
+                popup_c4f85dcbdd3d4fd385c5f280a77ff6f0.setContent(html_99320a4deb2442c4b4411a527089ca5c);
+            
+
+            circle_130113c17b984a58998d6c845348e8d4.bindPopup(popup_c4f85dcbdd3d4fd385c5f280a77ff6f0);
+
+            
+        
+    
+
+            var circle_da00b4bd19ac4ecc95dc7d4e55c044b5 = L.circle(
+                [65.04680297,13.50069228],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 0,
+  "radius": 59976,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b54fa302f100451e81833c4d4dbbe783);
+            
+    
+            var popup_50b415686eb14e9c812600cd683a0f25 = L.popup({maxWidth: '300'});
+
+            
+                var html_23ab5a4ef95749db9a542de6608760b9 = $('<div id="html_23ab5a4ef95749db9a542de6608760b9" style="width: 100.0%; height: 100.0%;">Norway: 2 attacks</div>')[0];
+                popup_50b415686eb14e9c812600cd683a0f25.setContent(html_23ab5a4ef95749db9a542de6608760b9);
+            
+
+            circle_da00b4bd19ac4ecc95dc7d4e55c044b5.bindPopup(popup_50b415686eb14e9c812600cd683a0f25);
+
+            
+        
+    
+
+            var circle_08407352cc814ea6b5edf969de93cf17 = L.circle(
+                [29.90335974,70.34487986],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 0,
+  "radius": 839664,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b54fa302f100451e81833c4d4dbbe783);
+            
+    
+            var popup_1aa8b0a77a2c4ff486e718fc4eedd1ae = L.popup({maxWidth: '300'});
+
+            
+                var html_6cb365348cd54845b5cfdb82c8982724 = $('<div id="html_6cb365348cd54845b5cfdb82c8982724" style="width: 100.0%; height: 100.0%;">Pakistan: 220 attacks</div>')[0];
+                popup_1aa8b0a77a2c4ff486e718fc4eedd1ae.setContent(html_6cb365348cd54845b5cfdb82c8982724);
+            
+
+            circle_08407352cc814ea6b5edf969de93cf17.bindPopup(popup_1aa8b0a77a2c4ff486e718fc4eedd1ae);
+
+            
+        
+    
+
+            var circle_953a7cdfe10b406b90ebed8d90ca2b39 = L.circle(
+                [32.26367103,35.21936714],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 0,
+  "radius": 359856,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b54fa302f100451e81833c4d4dbbe783);
+            
+    
+            var popup_c6323c4f41a24ceeb14b45eaf0ec40d8 = L.popup({maxWidth: '300'});
+
+            
+                var html_0f18355a16ec47bebe3176b3da81e3c6 = $('<div id="html_0f18355a16ec47bebe3176b3da81e3c6" style="width: 100.0%; height: 100.0%;">Palestine (West Bank and Gaza): 46 attacks</div>')[0];
+                popup_c6323c4f41a24ceeb14b45eaf0ec40d8.setContent(html_0f18355a16ec47bebe3176b3da81e3c6);
+            
+
+            circle_953a7cdfe10b406b90ebed8d90ca2b39.bindPopup(popup_c6323c4f41a24ceeb14b45eaf0ec40d8);
+
+            
+        
+    
+
+            var circle_3ac2a6401879458b822f8eb971eddb5a = L.circle(
+                [-23.38564782,-58.29551057],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 0,
+  "radius": 0,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b54fa302f100451e81833c4d4dbbe783);
+            
+    
+            var popup_40c9c9d88460406b8de8a395c7967568 = L.popup({maxWidth: '300'});
+
+            
+                var html_7324b2b7063949ecbe12dcbdf3c51c25 = $('<div id="html_7324b2b7063949ecbe12dcbdf3c51c25" style="width: 100.0%; height: 100.0%;">0</div>')[0];
+                popup_40c9c9d88460406b8de8a395c7967568.setContent(html_7324b2b7063949ecbe12dcbdf3c51c25);
+            
+
+            circle_3ac2a6401879458b822f8eb971eddb5a.bindPopup(popup_40c9c9d88460406b8de8a395c7967568);
+
+            
+        
+    
+
+            var circle_a8d640f978c344189ba30a5e681540c5 = L.circle(
+                [-8.50205247,-76.15772412],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 0,
+  "radius": 59976,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b54fa302f100451e81833c4d4dbbe783);
+            
+    
+            var popup_97030443657a451788753c09d18e09db = L.popup({maxWidth: '300'});
+
+            
+                var html_ba28ffe1af5f4de0a4b26b897b05241f = $('<div id="html_ba28ffe1af5f4de0a4b26b897b05241f" style="width: 100.0%; height: 100.0%;">Peru: 1 attacks</div>')[0];
+                popup_97030443657a451788753c09d18e09db.setContent(html_ba28ffe1af5f4de0a4b26b897b05241f);
+            
+
+            circle_a8d640f978c344189ba30a5e681540c5.bindPopup(popup_97030443657a451788753c09d18e09db);
+
+            
+        
+    
+
+            var circle_b96a0f07a94942d0a9e510a9a82cb5b7 = L.circle(
+                [12.823612,121.774017],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 0,
+  "radius": 299880,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b54fa302f100451e81833c4d4dbbe783);
+            
+    
+            var popup_c95f7151e8744f3da95691a287cb18ca = L.popup({maxWidth: '300'});
+
+            
+                var html_148ff50e3d22463c9ebe349f5dfe2a05 = $('<div id="html_148ff50e3d22463c9ebe349f5dfe2a05" style="width: 100.0%; height: 100.0%;">Philippines: 30 attacks</div>')[0];
+                popup_c95f7151e8744f3da95691a287cb18ca.setContent(html_148ff50e3d22463c9ebe349f5dfe2a05);
+            
+
+            circle_b96a0f07a94942d0a9e510a9a82cb5b7.bindPopup(popup_c95f7151e8744f3da95691a287cb18ca);
+
+            
+        
+    
+
+            var circle_1ca3aecc995449d490d32ae9422bd7c6 = L.circle(
+                [52.10117636,19.33190957],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 0,
+  "radius": 0,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b54fa302f100451e81833c4d4dbbe783);
+            
+    
+            var popup_3e8daa49eba54b35aaec6ab6b57822a6 = L.popup({maxWidth: '300'});
+
+            
+                var html_32988775a6c640c18b115b1ad3a40b05 = $('<div id="html_32988775a6c640c18b115b1ad3a40b05" style="width: 100.0%; height: 100.0%;">0</div>')[0];
+                popup_3e8daa49eba54b35aaec6ab6b57822a6.setContent(html_32988775a6c640c18b115b1ad3a40b05);
+            
+
+            circle_1ca3aecc995449d490d32ae9422bd7c6.bindPopup(popup_3e8daa49eba54b35aaec6ab6b57822a6);
+
+            
+        
+    
+
+            var circle_5f9440b03ba94e3f853313fb4d7d3c66 = L.circle(
+                [53.10101628,-8.21092302],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 0,
+  "radius": 59976,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b54fa302f100451e81833c4d4dbbe783);
+            
+    
+            var popup_bf231ee073394d119622260ffeca63ac = L.popup({maxWidth: '300'});
+
+            
+                var html_11449303ca4b4df1842ef4c439119e55 = $('<div id="html_11449303ca4b4df1842ef4c439119e55" style="width: 100.0%; height: 100.0%;">Ireland: 1 attacks</div>')[0];
+                popup_bf231ee073394d119622260ffeca63ac.setContent(html_11449303ca4b4df1842ef4c439119e55);
+            
+
+            circle_5f9440b03ba94e3f853313fb4d7d3c66.bindPopup(popup_bf231ee073394d119622260ffeca63ac);
+
+            
+        
+    
+
+            var circle_d0bbc1e19c7d4949a2c623fef27641ea = L.circle(
+                [41.60059479,21.745279],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 0,
+  "radius": 59976,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b54fa302f100451e81833c4d4dbbe783);
+            
+    
+            var popup_f341cec0e89b4ce89409b0f5a5029d1e = L.popup({maxWidth: '300'});
+
+            
+                var html_3f7e64896ae84d41b45a3a2038fdcff9 = $('<div id="html_3f7e64896ae84d41b45a3a2038fdcff9" style="width: 100.0%; height: 100.0%;">Macedonia, FYR: 2 attacks</div>')[0];
+                popup_f341cec0e89b4ce89409b0f5a5029d1e.setContent(html_3f7e64896ae84d41b45a3a2038fdcff9);
+            
+
+            circle_d0bbc1e19c7d4949a2c623fef27641ea.bindPopup(popup_f341cec0e89b4ce89409b0f5a5029d1e);
+
+            
+        
+    
+
+            var circle_ad2fc02fddf240fb84c6bf69da2899c8 = L.circle(
+                [57.96812298,102.41837137],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 0,
+  "radius": 299880,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b54fa302f100451e81833c4d4dbbe783);
+            
+    
+            var popup_cbdae16c8e404018a5c66dc0fc85e081 = L.popup({maxWidth: '300'});
+
+            
+                var html_7c07c56b465547eb97268d5acc1103cf = $('<div id="html_7c07c56b465547eb97268d5acc1103cf" style="width: 100.0%; height: 100.0%;">Russian Federation: 34 attacks</div>')[0];
+                popup_cbdae16c8e404018a5c66dc0fc85e081.setContent(html_7c07c56b465547eb97268d5acc1103cf);
+            
+
+            circle_ad2fc02fddf240fb84c6bf69da2899c8.bindPopup(popup_cbdae16c8e404018a5c66dc0fc85e081);
+
+            
+        
+    
+
+            var circle_70a8dcb0f9fd42079dbb8597f3006612 = L.circle(
+                [-1.98589079,29.94255855],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 0,
+  "radius": 59976,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b54fa302f100451e81833c4d4dbbe783);
+            
+    
+            var popup_378814d0c2484f9aaa356b23f961bce3 = L.popup({maxWidth: '300'});
+
+            
+                var html_c478c4ba79a143278b20860a6f6d520d = $('<div id="html_c478c4ba79a143278b20860a6f6d520d" style="width: 100.0%; height: 100.0%;">Rwanda: 2 attacks</div>')[0];
+                popup_378814d0c2484f9aaa356b23f961bce3.setContent(html_c478c4ba79a143278b20860a6f6d520d);
+            
+
+            circle_70a8dcb0f9fd42079dbb8597f3006612.bindPopup(popup_378814d0c2484f9aaa356b23f961bce3);
+
+            
+        
+    
+
+            var circle_52e106066694443099f04562fd8491ba = L.circle(
+                [24.16687314,42.88190638],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 0,
+  "radius": 179928,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b54fa302f100451e81833c4d4dbbe783);
+            
+    
+            var popup_56b08a0d09fb42b4a9bcfa13ce2a25df = L.popup({maxWidth: '300'});
+
+            
+                var html_a88b8e2d2a8941ef8ea7234ce5967326 = $('<div id="html_a88b8e2d2a8941ef8ea7234ce5967326" style="width: 100.0%; height: 100.0%;">Saudi Arabia: 10 attacks</div>')[0];
+                popup_56b08a0d09fb42b4a9bcfa13ce2a25df.setContent(html_a88b8e2d2a8941ef8ea7234ce5967326);
+            
+
+            circle_52e106066694443099f04562fd8491ba.bindPopup(popup_56b08a0d09fb42b4a9bcfa13ce2a25df);
+
+            
+        
+    
+
+            var circle_7a66124d2be7484dbb7e14daf7fc2b4e = L.circle(
+                [14.43579003,-14.68306489],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 0,
+  "radius": 59976,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b54fa302f100451e81833c4d4dbbe783);
+            
+    
+            var popup_2ab5c31b7b1d4cbb9907cba02bd34081 = L.popup({maxWidth: '300'});
+
+            
+                var html_8b99cf4906644dc5acf04fabd2b43d9e = $('<div id="html_8b99cf4906644dc5acf04fabd2b43d9e" style="width: 100.0%; height: 100.0%;">Senegal: 1 attacks</div>')[0];
+                popup_2ab5c31b7b1d4cbb9907cba02bd34081.setContent(html_8b99cf4906644dc5acf04fabd2b43d9e);
+            
+
+            circle_7a66124d2be7484dbb7e14daf7fc2b4e.bindPopup(popup_2ab5c31b7b1d4cbb9907cba02bd34081);
+
+            
+        
+    
+
+            var circle_fc040035aade47b38bd2623850f322ea = L.circle(
+                [44.06736041,20.29725084],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 0,
+  "radius": 0,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b54fa302f100451e81833c4d4dbbe783);
+            
+    
+            var popup_a7d674beef044f9f8cb79e6a2b5505c3 = L.popup({maxWidth: '300'});
+
+            
+                var html_0b46d6d1a2764136ad618d4005b1189f = $('<div id="html_0b46d6d1a2764136ad618d4005b1189f" style="width: 100.0%; height: 100.0%;">0</div>')[0];
+                popup_a7d674beef044f9f8cb79e6a2b5505c3.setContent(html_0b46d6d1a2764136ad618d4005b1189f);
+            
+
+            circle_fc040035aade47b38bd2623850f322ea.bindPopup(popup_a7d674beef044f9f8cb79e6a2b5505c3);
+
+            
+        
+    
+
+            var circle_fb6988cabc8c4d32a19373ac1ded53d4 = L.circle(
+                [2.87224619,45.27676444],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 0,
+  "radius": 359856,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b54fa302f100451e81833c4d4dbbe783);
+            
+    
+            var popup_e3eeaed69ccd4fc19eaf9ff5d9e5240b = L.popup({maxWidth: '300'});
+
+            
+                var html_4c64971ee6dd4cb08c34a4e75ed00e2b = $('<div id="html_4c64971ee6dd4cb08c34a4e75ed00e2b" style="width: 100.0%; height: 100.0%;">Somalia: 47 attacks</div>')[0];
+                popup_e3eeaed69ccd4fc19eaf9ff5d9e5240b.setContent(html_4c64971ee6dd4cb08c34a4e75ed00e2b);
+            
+
+            circle_fb6988cabc8c4d32a19373ac1ded53d4.bindPopup(popup_e3eeaed69ccd4fc19eaf9ff5d9e5240b);
+
+            
+        
+    
+
+            var circle_c667027cbeb4479ba2b45f374898cb9a = L.circle(
+                [-27.17706863,24.50856092],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 0,
+  "radius": 0,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b54fa302f100451e81833c4d4dbbe783);
+            
+    
+            var popup_5b90358f22124a41b12063c3f0920b4b = L.popup({maxWidth: '300'});
+
+            
+                var html_386a80bf9a5747b88ca61db52e9178a7 = $('<div id="html_386a80bf9a5747b88ca61db52e9178a7" style="width: 100.0%; height: 100.0%;">0</div>')[0];
+                popup_5b90358f22124a41b12063c3f0920b4b.setContent(html_386a80bf9a5747b88ca61db52e9178a7);
+            
+
+            circle_c667027cbeb4479ba2b45f374898cb9a.bindPopup(popup_5b90358f22124a41b12063c3f0920b4b);
+
+            
+        
+    
+
+            var circle_6f8d63e9e12d43e6832c9d43930daf28 = L.circle(
+                [36.56344139,127.51424646],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 0,
+  "radius": 59976,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b54fa302f100451e81833c4d4dbbe783);
+            
+    
+            var popup_48fbffd7c3f84b6089bf712ca5cef5ee = L.popup({maxWidth: '300'});
+
+            
+                var html_af7b52eac724433a9ef626c7ea73df3a = $('<div id="html_af7b52eac724433a9ef626c7ea73df3a" style="width: 100.0%; height: 100.0%;">Korea, Rep.: 2 attacks</div>')[0];
+                popup_48fbffd7c3f84b6089bf712ca5cef5ee.setContent(html_af7b52eac724433a9ef626c7ea73df3a);
+            
+
+            circle_6f8d63e9e12d43e6832c9d43930daf28.bindPopup(popup_48fbffd7c3f84b6089bf712ca5cef5ee);
+
+            
+        
+    
+
+            var circle_dc374f011bc440958114f4fdb44aace3 = L.circle(
+                [7.91320803,30.15342434],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 0,
+  "radius": 119952,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b54fa302f100451e81833c4d4dbbe783);
+            
+    
+            var popup_16c7bedf3cd34cd89f24e1f26a42fdcf = L.popup({maxWidth: '300'});
+
+            
+                var html_872ad98b6b6a4b5e93f0af0093e12b36 = $('<div id="html_872ad98b6b6a4b5e93f0af0093e12b36" style="width: 100.0%; height: 100.0%;">South Sudan: 4 attacks</div>')[0];
+                popup_16c7bedf3cd34cd89f24e1f26a42fdcf.setContent(html_872ad98b6b6a4b5e93f0af0093e12b36);
+            
+
+            circle_dc374f011bc440958114f4fdb44aace3.bindPopup(popup_16c7bedf3cd34cd89f24e1f26a42fdcf);
+
+            
+        
+    
+
+            var circle_49a948e251d049409b3a9c96401a37a9 = L.circle(
+                [39.87299401,-3.67089492],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 0,
+  "radius": 0,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b54fa302f100451e81833c4d4dbbe783);
+            
+    
+            var popup_663fbaedb22c420186f7d1572c9808c1 = L.popup({maxWidth: '300'});
+
+            
+                var html_4ea1bd8236eb459d9df4b69601142b28 = $('<div id="html_4ea1bd8236eb459d9df4b69601142b28" style="width: 100.0%; height: 100.0%;">0</div>')[0];
+                popup_663fbaedb22c420186f7d1572c9808c1.setContent(html_4ea1bd8236eb459d9df4b69601142b28);
+            
+
+            circle_49a948e251d049409b3a9c96401a37a9.bindPopup(popup_663fbaedb22c420186f7d1572c9808c1);
+
+            
+        
+    
+
+            var circle_dc662d06bf7742f999c6ba44275f1ecf = L.circle(
+                [15.96646839,30.37145459],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 0,
+  "radius": 59976,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b54fa302f100451e81833c4d4dbbe783);
+            
+    
+            var popup_a042295ca5e04c1b8ea06d87c73f5c26 = L.popup({maxWidth: '300'});
+
+            
+                var html_78fcef62352243caaf548c05965a69c7 = $('<div id="html_78fcef62352243caaf548c05965a69c7" style="width: 100.0%; height: 100.0%;">Sudan: 3 attacks</div>')[0];
+                popup_a042295ca5e04c1b8ea06d87c73f5c26.setContent(html_78fcef62352243caaf548c05965a69c7);
+            
+
+            circle_dc662d06bf7742f999c6ba44275f1ecf.bindPopup(popup_a042295ca5e04c1b8ea06d87c73f5c26);
+
+            
+        
+    
+
+            var circle_ce4f0f9bfdc140919827b898ad42705d = L.circle(
+                [61.42370427,16.73188991],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 0,
+  "radius": 59976,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b54fa302f100451e81833c4d4dbbe783);
+            
+    
+            var popup_a807f2f197264d758c5e98da3e67a226 = L.popup({maxWidth: '300'});
+
+            
+                var html_d48a216bdf2240de9e9da52827652b6b = $('<div id="html_d48a216bdf2240de9e9da52827652b6b" style="width: 100.0%; height: 100.0%;">Sweden: 1 attacks</div>')[0];
+                popup_a807f2f197264d758c5e98da3e67a226.setContent(html_d48a216bdf2240de9e9da52827652b6b);
+            
+
+            circle_ce4f0f9bfdc140919827b898ad42705d.bindPopup(popup_a807f2f197264d758c5e98da3e67a226);
+
+            
+        
+    
+
+            var circle_439c76085def46cba170c7dd96577ee6 = L.circle(
+                [34.7109743,38.66723516],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 0,
+  "radius": 419832,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b54fa302f100451e81833c4d4dbbe783);
+            
+    
+            var popup_f17bc70c0abd4a968f54ef91a1e2f2dc = L.popup({maxWidth: '300'});
+
+            
+                var html_8710bd8db3d34516bdde4fafd56421cb = $('<div id="html_8710bd8db3d34516bdde4fafd56421cb" style="width: 100.0%; height: 100.0%;">Syrian Arab Republic: 57 attacks</div>')[0];
+                popup_f17bc70c0abd4a968f54ef91a1e2f2dc.setContent(html_8710bd8db3d34516bdde4fafd56421cb);
+            
+
+            circle_439c76085def46cba170c7dd96577ee6.bindPopup(popup_f17bc70c0abd4a968f54ef91a1e2f2dc);
+
+            
+        
+    
+
+            var circle_214db0d6e48743ef99a6ecabc270a105 = L.circle(
+                [-6.37551085,34.85587302],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 0,
+  "radius": 59976,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b54fa302f100451e81833c4d4dbbe783);
+            
+    
+            var popup_f87cab4c08ca43f2807e347d1a6cabe4 = L.popup({maxWidth: '300'});
+
+            
+                var html_8b5934bf48354fcea0f4a99a8ea3abb6 = $('<div id="html_8b5934bf48354fcea0f4a99a8ea3abb6" style="width: 100.0%; height: 100.0%;">Tanzania: 1 attacks</div>')[0];
+                popup_f87cab4c08ca43f2807e347d1a6cabe4.setContent(html_8b5934bf48354fcea0f4a99a8ea3abb6);
+            
+
+            circle_214db0d6e48743ef99a6ecabc270a105.bindPopup(popup_f87cab4c08ca43f2807e347d1a6cabe4);
+
+            
+        
+    
+
+            var circle_4735349022c84e31b460fb42cb113f8a = L.circle(
+                [14.6000981,101.38805881],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 0,
+  "radius": 239904,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b54fa302f100451e81833c4d4dbbe783);
+            
+    
+            var popup_aa7f5e575ab64f94b195d4f06f6b652b = L.popup({maxWidth: '300'});
+
+            
+                var html_84ed563ba1694682a49a0fa463fa975d = $('<div id="html_84ed563ba1694682a49a0fa463fa975d" style="width: 100.0%; height: 100.0%;">Thailand: 20 attacks</div>')[0];
+                popup_aa7f5e575ab64f94b195d4f06f6b652b.setContent(html_84ed563ba1694682a49a0fa463fa975d);
+            
+
+            circle_4735349022c84e31b460fb42cb113f8a.bindPopup(popup_aa7f5e575ab64f94b195d4f06f6b652b);
+
+            
+        
+    
+
+            var circle_1ad87903970a41ea8fcf2e945e5674c8 = L.circle(
+                [33.8843194,9.71878341],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 0,
+  "radius": 119952,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b54fa302f100451e81833c4d4dbbe783);
+            
+    
+            var popup_71c3f7634e384e9899f623e7706afc4c = L.popup({maxWidth: '300'});
+
+            
+                var html_bee014ca157441fd8a9af17ef96c3327 = $('<div id="html_bee014ca157441fd8a9af17ef96c3327" style="width: 100.0%; height: 100.0%;">Tunisia: 6 attacks</div>')[0];
+                popup_71c3f7634e384e9899f623e7706afc4c.setContent(html_bee014ca157441fd8a9af17ef96c3327);
+            
+
+            circle_1ad87903970a41ea8fcf2e945e5674c8.bindPopup(popup_71c3f7634e384e9899f623e7706afc4c);
+
+            
+        
+    
+
+            var circle_2efcf4862d8f4939b15721ff410e743e = L.circle(
+                [38.27069555,36.28703317],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 0,
+  "radius": 299880,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b54fa302f100451e81833c4d4dbbe783);
+            
+    
+            var popup_607e883a6671499eba74793406dc662b = L.popup({maxWidth: '300'});
+
+            
+                var html_d0a1cbfb07914d0583f37bd0865a5fa9 = $('<div id="html_d0a1cbfb07914d0583f37bd0865a5fa9" style="width: 100.0%; height: 100.0%;">Turkey: 28 attacks</div>')[0];
+                popup_607e883a6671499eba74793406dc662b.setContent(html_d0a1cbfb07914d0583f37bd0865a5fa9);
+            
+
+            circle_2efcf4862d8f4939b15721ff410e743e.bindPopup(popup_607e883a6671499eba74793406dc662b);
+
+            
+        
+    
+
+            var circle_4be7a44b3e7540e6b845a7d08985ddcd = L.circle(
+                [1.5476062,32.44409759],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 0,
+  "radius": 59976,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b54fa302f100451e81833c4d4dbbe783);
+            
+    
+            var popup_f6d0155781c04c5481445158bfe57a9c = L.popup({maxWidth: '300'});
+
+            
+                var html_bf7ee47ff8ca460082c0686af353be32 = $('<div id="html_bf7ee47ff8ca460082c0686af353be32" style="width: 100.0%; height: 100.0%;">Uganda: 1 attacks</div>')[0];
+                popup_f6d0155781c04c5481445158bfe57a9c.setContent(html_bf7ee47ff8ca460082c0686af353be32);
+            
+
+            circle_4be7a44b3e7540e6b845a7d08985ddcd.bindPopup(popup_f6d0155781c04c5481445158bfe57a9c);
+
+            
+        
+    
+
+            var circle_17b2a90ad6614e89800fd694e69ffb80 = L.circle(
+                [48.89358596,31.1051692],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 0,
+  "radius": 119952,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b54fa302f100451e81833c4d4dbbe783);
+            
+    
+            var popup_fbb3b04137104297b0f45d2215a3c57a = L.popup({maxWidth: '300'});
+
+            
+                var html_606a6c1fee9b4f08beca1ebda97417b8 = $('<div id="html_606a6c1fee9b4f08beca1ebda97417b8" style="width: 100.0%; height: 100.0%;">Ukraine: 8 attacks</div>')[0];
+                popup_fbb3b04137104297b0f45d2215a3c57a.setContent(html_606a6c1fee9b4f08beca1ebda97417b8);
+            
+
+            circle_17b2a90ad6614e89800fd694e69ffb80.bindPopup(popup_fbb3b04137104297b0f45d2215a3c57a);
+
+            
+        
+    
+
+            var circle_513e2770d08649b3b3107fd65abb5dee = L.circle(
+                [53.36540813,-2.72184767],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 0,
+  "radius": 179928,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b54fa302f100451e81833c4d4dbbe783);
+            
+    
+            var popup_846afd1668f7457684e240aed40c5ca9 = L.popup({maxWidth: '300'});
+
+            
+                var html_13ead65399e54f92aacf20f746fdebd3 = $('<div id="html_13ead65399e54f92aacf20f746fdebd3" style="width: 100.0%; height: 100.0%;">United Kingdom: 13 attacks</div>')[0];
+                popup_846afd1668f7457684e240aed40c5ca9.setContent(html_13ead65399e54f92aacf20f746fdebd3);
+            
+
+            circle_513e2770d08649b3b3107fd65abb5dee.bindPopup(popup_846afd1668f7457684e240aed40c5ca9);
+
+            
+        
+    
+
+            var circle_aad7b995856e43eca1890a3e9f49d2ad = L.circle(
+                [37.66895362,-102.3925645],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 0,
+  "radius": 179928,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b54fa302f100451e81833c4d4dbbe783);
+            
+    
+            var popup_8e91c8835cda47c58eab0aeef2e3578e = L.popup({maxWidth: '300'});
+
+            
+                var html_b1ba1e08ea3c494aaad2faf8363892eb = $('<div id="html_b1ba1e08ea3c494aaad2faf8363892eb" style="width: 100.0%; height: 100.0%;">United States of America: 10 attacks</div>')[0];
+                popup_8e91c8835cda47c58eab0aeef2e3578e.setContent(html_b1ba1e08ea3c494aaad2faf8363892eb);
+            
+
+            circle_aad7b995856e43eca1890a3e9f49d2ad.bindPopup(popup_8e91c8835cda47c58eab0aeef2e3578e);
+
+            
+        
+    
+
+            var circle_ab26f5ca330a41ad87bb1f98a46efea0 = L.circle(
+                [-32.49342987,-55.765833],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 0,
+  "radius": 0,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b54fa302f100451e81833c4d4dbbe783);
+            
+    
+            var popup_7e0419f487574a5d84924d5f7949e23b = L.popup({maxWidth: '300'});
+
+            
+                var html_e5f7f7f4b8f24d7188cfb8f76eb99f0e = $('<div id="html_e5f7f7f4b8f24d7188cfb8f76eb99f0e" style="width: 100.0%; height: 100.0%;">0</div>')[0];
+                popup_7e0419f487574a5d84924d5f7949e23b.setContent(html_e5f7f7f4b8f24d7188cfb8f76eb99f0e);
+            
+
+            circle_ab26f5ca330a41ad87bb1f98a46efea0.bindPopup(popup_7e0419f487574a5d84924d5f7949e23b);
+
+            
+        
+    
+
+            var circle_228c15544bf24d5aa76caebda2f9963d = L.circle(
+                [5.98477766,-65.94152264],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 0,
+  "radius": 0,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b54fa302f100451e81833c4d4dbbe783);
+            
+    
+            var popup_bf6022d0e693444da955550307e317df = L.popup({maxWidth: '300'});
+
+            
+                var html_47496304b2f7495e8c239f30cbbc1154 = $('<div id="html_47496304b2f7495e8c239f30cbbc1154" style="width: 100.0%; height: 100.0%;">0</div>')[0];
+                popup_bf6022d0e693444da955550307e317df.setContent(html_47496304b2f7495e8c239f30cbbc1154);
+            
+
+            circle_228c15544bf24d5aa76caebda2f9963d.bindPopup(popup_bf6022d0e693444da955550307e317df);
+
+            
+        
+    
+
+            var circle_15ca3e2a56fc4a5c99a21df0abe60467 = L.circle(
+                [15.60865453,47.60453676],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#3388ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 0,
+  "radius": 419832,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_b54fa302f100451e81833c4d4dbbe783);
+            
+    
+            var popup_2de39399babc4955bfb94cbf888862b3 = L.popup({maxWidth: '300'});
+
+            
+                var html_0a30ef44c15f4bdb80e6a7677e1c51bd = $('<div id="html_0a30ef44c15f4bdb80e6a7677e1c51bd" style="width: 100.0%; height: 100.0%;">Yemen, Rep.: 60 attacks</div>')[0];
+                popup_2de39399babc4955bfb94cbf888862b3.setContent(html_0a30ef44c15f4bdb80e6a7677e1c51bd);
+            
+
+            circle_15ca3e2a56fc4a5c99a21df0abe60467.bindPopup(popup_2de39399babc4955bfb94cbf888862b3);
+
+            
+        
+</script>

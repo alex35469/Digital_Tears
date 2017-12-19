@@ -1,0 +1,620 @@
+[
+{
+"name": "Afghanistan",
+"code": "AFG",
+"lat": "33.98299275",
+"lon": "66.39159363"
+},
+{
+"name": "Algeria",
+"code": "DZA",
+"lat": "27.89861690",
+"lon": "3.19771194"
+},
+{
+"name": "Angola",
+"code": "AGO",
+"lat": "-12.16469683",
+"lon": "16.70933622"
+},
+{
+"name": "Argentina",
+"code": "ARG",
+"lat": "-38.01529308",
+"lon": "-64.97897469"
+},
+{
+"name": "Armenia",
+"code": "ARM",
+"lat": "40.13475528",
+"lon": "45.01072318"
+},
+{
+"name": "Australia",
+"code": "AUS",
+"lat": "-26.29594646",
+"lon": "133.55540944"
+},
+{
+"name": "Austria",
+"code": "AUT",
+"lat": "47.63125476",
+"lon": "13.18776731"
+},
+{
+"name": "Azerbaijan",
+"code": "AZE",
+"lat": "40.35321757",
+"lon": "47.46706372"
+},
+{
+"name": "Bahamas, The",
+"code": "BHS",
+"lat": "24.45991732",
+"lon": "-77.68192453"
+},
+{
+"name": "Bahrain",
+"code": "BHR",
+"lat": "25.90740996",
+"lon": "50.65932354"
+},
+{
+"name": "Bangladesh",
+"code": "BGD",
+"lat": "24.08273251",
+"lon": "90.49915527"
+},
+{
+"name": "Belarus",
+"code": "BLR",
+"lat": "53.58628747",
+"lon": "27.95338900"
+},
+{
+"name": "Belgium",
+"code": "BEL",
+"lat": "50.49593874",
+"lon": "4.46993600"
+},
+{
+"name": "Bolivia",
+"code": "BOL",
+"lat": "-16.74518128",
+"lon": "-65.19265691"
+},
+{
+"name": "Bosnia and Herzegovina",
+"code": "BIH",
+"lat": "44.00040856",
+"lon": "17.81640910"
+},
+{
+"name": "Bulgaria",
+"code": "BGR",
+"lat": "42.70160678",
+"lon": "25.48583200"
+},
+{
+"name": "Burkina Faso",
+"code": "BFA",
+"lat": "12.22492458",
+"lon": "-1.56159100"
+},
+{
+"name": "Burundi",
+"code": "BDI",
+"lat": "-3.40499707",
+"lon": "29.88592902"
+},
+{
+"name": "Cameroon",
+"code": "CMR",
+"lat": "7.38622543",
+"lon": "12.72825915"
+},
+{
+"name": "Canada",
+"code": "CAN",
+"lat": "60.36196817",
+"lon": "-106.69833150"
+},
+{
+"name": "Central African Republic",
+"code": "CAF",
+"lat": "6.82541830",
+"lon": "20.64281514"
+},
+{
+"name": "Chad",
+"code": "TCD",
+"lat": "14.80342407",
+"lon": "18.78714064"
+},
+{
+"name": "Chile",
+"code": "CHL",
+"lat": "-38.01760790",
+"lon": "-71.40014474"
+},
+{
+"name": "China",
+"code": "CHN",
+"lat": "36.71457440",
+"lon": "103.55819197"
+},
+{
+"name": "Colombia",
+"code": "COL",
+"lat": "3.68182320",
+"lon": "-73.53927436"
+},
+{
+"name": "Congo, Dem. Rep.",
+"code": "COD",
+"lat": "-4.05373938",
+"lon": "23.01110741"
+},
+{
+"name": "Denmark",
+"code": "DNK",
+"lat": "54.71794021",
+"lon": "9.41938953"
+},
+{
+"name": "Djibouti",
+"code": "DJI",
+"lat": "11.75959257",
+"lon": "42.65344839"
+},
+{
+"name": "Egypt, Arab Rep.",
+"code": "EGY",
+"lat": "26.71650873",
+"lon": "30.80250000"
+},
+{
+"name": "Ethiopia",
+"code": "ETH",
+"lat": "9.10727589",
+"lon": "39.84148164"
+},
+{
+"name": "France",
+"code": "FRA",
+"lat": "46.48372145",
+"lon": "2.60926281"
+},
+{
+"name": "Gabon",
+"code": "GAB",
+"lat": "-0.43426435",
+"lon": "11.43916591"
+},
+{
+"name": "Georgia",
+"code": "GEO",
+"lat": "41.82754301",
+"lon": "44.17329916"
+},
+{
+"name": "Germany",
+"code": "DEU",
+"lat": "50.82871201",
+"lon": "10.97887975"
+},
+{
+"name": "Greece",
+"code": "GRC",
+"lat": "38.52254746",
+"lon": "24.53794505"
+},
+{
+"name": "Guatemala",
+"code": "GTM",
+"lat": "15.72598421",
+"lon": "-89.96707712"
+},
+{
+"name": "Guinea",
+"code": "GIN",
+"lat": "9.94301472",
+"lon": "-11.31711839"
+},
+{
+"name": "Haiti",
+"code": "HTI",
+"lat": "19.07430861",
+"lon": "-72.79607526"
+},
+{
+"name": "Honduras",
+"code": "HND",
+"lat": "14.64994423",
+"lon": "-87.01643713"
+},
+{
+"name": "Hungary",
+"code": "HUN",
+"lat": "46.97670384",
+"lon": "19.35499657"
+},
+{
+"name": "India",
+"code": "IND",
+"lat": "20.46549519",
+"lon": "78.50146222"
+},
+{
+"name": "Indian Ocean Territories",
+"code": "IOA",
+"lat": "-7.33461519",
+"lon": "72.42425280"
+},
+{
+"name": "Indonesia",
+"code": "IDN",
+"lat": "-2.46229680",
+"lon": "121.18329789"
+},
+{
+"name": "Iran, Islamic Rep.",
+"code": "IRN",
+"lat": "31.40240324",
+"lon": "51.28204814"
+},
+{
+"name": "Iraq",
+"code": "IRQ",
+"lat": "32.90170182",
+"lon": "43.19590056"
+},
+{
+"name": "Israel",
+"code": "ISR",
+"lat": "30.85883075",
+"lon": "34.91753797"
+},
+{
+"name": "Italy",
+"code": "ITA",
+"lat": "41.77810840",
+"lon": "12.67725128"
+},
+{
+"name": "C\u00f4te d'Ivoire",
+"code": "CIV",
+"lat": "7.59684148",
+"lon": "-5.49214636"
+},
+{
+"name": "Japan",
+"code": "JPN",
+"lat": "37.51848822",
+"lon": "137.67066061"
+},
+{
+"name": "Jordan",
+"code": "JOR",
+"lat": "31.31616588",
+"lon": "36.37575510"
+},
+{
+"name": "Kazakhstan",
+"code": "KAZ",
+"lat": "45.38592596",
+"lon": "68.81334444"
+},
+{
+"name": "Kenya",
+"code": "KEN",
+"lat": "0.19582452",
+"lon": "37.97212297"
+},
+{
+"name": "Kosovo",
+"code": "KOS",
+"lat": "42.667542",
+"lon": "21.166191"
+},
+{
+"name": "Kuwait",
+"code": "KWT",
+"lat": "29.43253341",
+"lon": "47.71798405"
+},
+{
+"name": "Kyrgyz Republic",
+"code": "KGZ",
+"lat": "41.11509878",
+"lon": "74.25524574"
+},
+{
+"name": "Lao PDR",
+"code": "LAO",
+"lat": "17.76075593",
+"lon": "103.61611347"
+},
+{
+"name": "Lebanon",
+"code": "LBN",
+"lat": "34.08249284",
+"lon": "35.66454309"
+},
+{
+"name": "Libya",
+"code": "LBY",
+"lat": "27.06902914",
+"lon": "18.19513987"
+},
+{
+"name": "Madagascar",
+"code": "MDG",
+"lat": "-19.79858543",
+"lon": "46.97898228"
+},
+{
+"name": "Malaysia",
+"code": "MYS",
+"lat": "4.97345793",
+"lon": "106.54609050"
+},
+{
+"name": "Mali",
+"code": "MLI",
+"lat": "17.69385811",
+"lon": "-1.96368730"
+},
+{
+"name": "Malta",
+"code": "MLT",
+"lat": "35.89706403",
+"lon": "14.43687877"
+},
+{
+"name": "Mexico",
+"code": "MEX",
+"lat": "22.92036676",
+"lon": "-102.33305344"
+},
+{
+"name": "Morocco",
+"code": "MAR",
+"lat": "31.95441758",
+"lon": "-7.26839325"
+},
+{
+"name": "Mozambique",
+"code": "MOZ",
+"lat": "-19.07617816",
+"lon": "33.81570282"
+},
+{
+"name": "Myanmar",
+"code": "MMR",
+"lat": "19.20985380",
+"lon": "96.54949272"
+},
+{
+"name": "Nepal",
+"code": "NPL",
+"lat": "28.28430770",
+"lon": "83.98119373"
+},
+{
+"name": "Netherlands",
+"code": "NLD",
+"lat": "52.33939951",
+"lon": "4.98914998"
+},
+{
+"name": "Niger",
+"code": "NER",
+"lat": "17.23446679",
+"lon": "8.23547860"
+},
+{
+"name": "Nigeria",
+"code": "NGA",
+"lat": "9.02165273",
+"lon": "7.82933373"
+},
+{
+"name": "Norway",
+"code": "NOR",
+"lat": "65.04680297",
+"lon": "13.50069228"
+},
+{
+"name": "Pakistan",
+"code": "PAK",
+"lat": "29.90335974",
+"lon": "70.34487986"
+},
+{
+"name": "Palestine (West Bank and Gaza)",
+"code": "PSE",
+"lat": "32.26367103",
+"lon": "35.21936714"
+},
+{
+"name": "Paraguay",
+"code": "PRY",
+"lat": "-23.38564782",
+"lon": "-58.29551057"
+},
+{
+"name": "Peru",
+"code": "PER",
+"lat": "-8.50205247",
+"lon": "-76.15772412"
+},
+{
+"name": "Philippines",
+"code": "PHL",
+"lat": "12.82361200",
+"lon": "121.77401700"
+},
+{
+"name": "Poland",
+"code": "POL",
+"lat": "52.10117636",
+"lon": "19.33190957"
+},
+{
+"name": "Ireland",
+"code": "IRL",
+"lat": "53.10101628",
+"lon": "-8.21092302"
+},
+{
+"name": "Macedonia, FYR",
+"code": "MKD",
+"lat": "41.60059479",
+"lon": "21.74527900"
+},
+{
+"name": "Russian Federation",
+"code": "RUS",
+"lat": "57.96812298",
+"lon": "102.41837137"
+},
+{
+"name": "Rwanda",
+"code": "RWA",
+"lat": "-1.98589079",
+"lon": "29.94255855"
+},
+{
+"name": "Saudi Arabia",
+"code": "SAU",
+"lat": "24.16687314",
+"lon": "42.88190638"
+},
+{
+"name": "Senegal",
+"code": "SEN",
+"lat": "14.43579003",
+"lon": "-14.68306489"
+},
+{
+"name": "Serbia",
+"code": "SRB",
+"lat": "44.06736041",
+"lon": "20.29725084"
+},
+{
+"name": "Somalia",
+"code": "SOM",
+"lat": "2.87224619",
+"lon": "45.27676444"
+},
+{
+"name": "South Africa",
+"code": "ZAF",
+"lat": "-27.17706863",
+"lon": "24.50856092"
+},
+{
+"name": "Korea, Rep.",
+"code": "KOR",
+"lat": "36.56344139",
+"lon": "127.51424646"
+},
+{
+"name": "South Sudan",
+"code": "SDS",
+"lat": "7.91320803",
+"lon": "30.15342434"
+},
+{
+"name": "Spain",
+"code": "ESP",
+"lat": "39.87299401",
+"lon": "-3.67089492"
+},
+{
+"name": "Sudan",
+"code": "SDN",
+"lat": "15.96646839",
+"lon": "30.37145459"
+},
+{
+"name": "Sweden",
+"code": "SWE",
+"lat": "61.42370427",
+"lon": "16.73188991"
+},
+{
+"name": "Syrian Arab Republic",
+"code": "SYR",
+"lat": "34.71097430",
+"lon": "38.66723516"
+},
+{
+"name": "Tanzania",
+"code": "TZA",
+"lat": "-6.37551085",
+"lon": "34.85587302"
+},
+{
+"name": "Thailand",
+"code": "THA",
+"lat": "14.60009810",
+"lon": "101.38805881"
+},
+{
+"name": "Tunisia",
+"code": "TUN",
+"lat": "33.88431940",
+"lon": "9.71878341"
+},
+{
+"name": "Turkey",
+"code": "TUR",
+"lat": "38.27069555",
+"lon": "36.28703317"
+},
+{
+"name": "Uganda",
+"code": "UGA",
+"lat": "1.54760620",
+"lon": "32.44409759"
+},
+{
+"name": "Ukraine",
+"code": "UKR",
+"lat": "48.89358596",
+"lon": "31.10516920"
+},
+{
+"name": "United Kingdom",
+"code": "GBR",
+"lat": "53.36540813",
+"lon": "-2.72184767"
+},
+{
+"name": "United States of America",
+"code": "USA",
+"lat": "37.66895362",
+"lon": "-102.39256450"
+},
+{
+"name": "Uruguay",
+"code": "URY",
+"lat": "-32.49342987",
+"lon": "-55.76583300"
+},
+{
+"name": "Venezuela, RB",
+"code": "VEN",
+"lat": "5.98477766",
+"lon": "-65.94152264"
+},
+{
+"name": "Yemen, Rep.",
+"code": "YEM",
+"lat": "15.60865453",
+"lon": "47.60453676"
+}
+]

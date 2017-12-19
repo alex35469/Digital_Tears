@@ -130,7 +130,7 @@ date,type,deaths,injuries,location,city,country
 2011-03-31,Suicide bombing,12.0,40.0,"Charsadda, Pakistan",Charsadda,Pakistan
 2011-03-31,IED,3.0,0.0,"Loralai, Balochistan Province, Pakistan",Loralai,Pakistan
 2011-03-31,"IED, Shooting",7.0,0.0,"Turbat, Qalat, Balochistan Province, Pakistan",Turbat,Pakistan
-2011-04-02,Car bombing,1.0,0.0,"Omagh, Northern Ireland",Omagh,Northern Ireland
+2011-04-02,Car bombing,1.0,0.0,"Omagh, Northern Ireland",Omagh,United Kingdom
 2011-04-03,Suicide bombings,50.0,100.0,"Dera Ghazi Khan, Punjab Province, Pakistan",Dera Ghazi Khan,Pakistan
 2011-04-04,Suicide bombing,8.0,40.0,"Lower Dir, Pakistan",Lower Dir,Pakistan
 2011-04-07,Car bombing,1.0,20.0,"Quetta, Pakistan",Quetta,Pakistan
@@ -180,7 +180,7 @@ date,type,deaths,injuries,location,city,country
 2011-05-08,Clashes,17.0,14.0,"Baghdad, Iraq",Baghdad,Iraq
 2011-05-08,Bombings,2.0,10.0,"North Waziristan, Pakistan",Waziristan,Pakistan
 2011-05-09,Shooting,9.0,0.0,"North Caucasus, Russia",Caucasus,Russia
-2011-05-09,Grenade attack,0.0,0.0,"Derry, Northern Ireland",Derry,Northern Ireland
+2011-05-09,Grenade attack,0.0,0.0,"Derry, Northern Ireland",Derry,United Kingdom
 2011-05-10,Bombing,2.0,8.0,"Nowshera District, Pakistan",Nowshera,Pakistan
 2011-05-10,Bombings,2.0,1.0,"Tikrit, Iraq",Tikrit,Iraq
 2011-05-10,Airstrike,4.0,,"South Waziristan, Pakistan",South Waziristan,Pakistan
@@ -1039,7 +1039,7 @@ Fatha, Iraq",Iskandariya,Iraq
 2014-11-11,Melee attack,1.0,2.0,"Alon Shvut, West Bank",Alon Shvut,Palestine
 2014-11-13,Shooting,0.0,5.0,"Outside Sinai in the Mediterranean Sea, Egypt",Outside Sinai In The Mediterranean Sea,Egypt
 2014-11-13,Car bombing,0.0,5.0,"Tripoli, Libya",Tripoli,Libya
-2014-11-16,Rocket,0.0,0.0,"Belfast, Northern Ireland",Belfast,Northern Ireland
+2014-11-16,Rocket,0.0,0.0,"Belfast, Northern Ireland",Belfast,United Kingdom
 2014-11-18,"Shooting, Melee attack",5.0,7.0,"Jerusalem, Israel",Jerusalem,Israel
 2014-11-23,Suicide bombing,61.0,,"Yahyakhel District, Afghanistan",Yahyakhel,Afghanistan
 2014-11-25,Suicide bombing,78.0,,"Maiduguri, Nigeria",Maiduguri,Nigeria
@@ -1103,7 +1103,7 @@ Fatha, Iraq",Iskandariya,Iraq
 2015-01-24,Artillery,30.0,108.0,"Mariupol, Ukraine",Mariupol,Ukraine
 2015-01-25,Attack,67.0,,"Mamasapano, Philippines",Mamasapano,Philippines
 2015-01-28,Suicide bombing,10.0,5.0,"Tripoli, Libya",Tripoli,Libya
-2015-01-28,Melee attack,1.0,0.0,"Belfast, Northern Ireland",Belfast,Northern Ireland
+2015-01-28,Melee attack,1.0,0.0,"Belfast, Northern Ireland",Belfast,United Kingdom
 2015-01-30,Bombing,60.0,,"Shikarpur, Pakistan",Shikarpur,Pakistan
 2015-02-03,Melee Attack,0.0,3.0,"Nice, France",Nice,France
 2015-02-04,Mass shooting,91.0,500.0,"Fotokol, Cameroon",Fotokol,Cameroon
@@ -1358,7 +1358,7 @@ Fatha, Iraq",Iskandariya,Iraq
 2015-10-14,Melee attack,0.0,1.0,East Jerusalem,Unknown,Israel
 2015-10-14,Suicide bombing,42.0,0.0,"Maiduguri, Nigeria",Maiduguri,Nigeria
 2015-10-16,Melee attack,5.0,4.0,"Saihat, Saudi Arabia",Saihat,Saudi Arabia
-2015-10-07,Shooting,0.0,0.0,"Strabane , Northern Ireland",Strabane,Northern Ireland
+2015-10-07,Shooting,0.0,0.0,"Strabane , Northern Ireland",Strabane,United Kingdom
 2015-10-18,Shooting,2.0,11.0,"Be'er Sheva, Israel",Be'Er Sheva,Israel
 2015-10-19,Bus bombing,11.0,22.0,"Quetta, Pakistan",Quetta,Pakistan
 2015-10-19,Kidnapping,2.0,,"Bhutan, Philippines",Bhutan,Philippines
@@ -1422,7 +1422,7 @@ Fatha, Iraq",Iskandariya,Iraq
 2015-11-25,Melee attack,0.0,1.0,"South Hebron Hills, West Bank",South Hebron Hills,Palestine
 2015-11-25,"Raid, Arson",18.0,10.0,"Wogom, Niger",Wogom,Niger
 2015-11-26,Raid,1.0,3.0,"Bogra, Bangladesh",Bogra,Bangladesh
-2015-11-26,Shooting,0.0,0.0,"Belfast, Northern Ireland",Belfast,Northern Ireland
+2015-11-26,Shooting,0.0,0.0,"Belfast, Northern Ireland",Belfast,United Kingdom
 2015-11-27,Vehicular assault,0.0,2.0,West Bank,Unknown,Palestine
 2015-11-27,Vehicular assault,0.0,5.0,"Beit Ummar, West Bank",Beit Ummar,Palestine
 2015-11-27,Suicide bombing,21.0,,"Dakasoye, Nigeria",Dakasoye,Nigeria
@@ -2585,7 +2585,7 @@ Turkey
 2016-08-08,Clash,10.0,9.0,"Cabinda, Angola",Cabinda,Angola
 2016-08-08,Shooting,14.0,,Kibirizi Democratic Republic of Congo,Kibirizi,Congo
 2016-08-08,Shooting and suicide bombing,93.0,130.0,"Quetta, Pakistan",Quetta,Pakistan
-2016-08-09,Assassination,1.0,0.0,Belfast Northern Ireland,Belfast,Northern Ireland
+2016-08-09,Assassination,1.0,0.0,Belfast Northern Ireland,Belfast,United Kingdom
 2016-08-09,Clash,0.0,,"Sulu, Philippines",Sulu,Philippines
 2016-08-10,Bombing,4.0,,"Kiziltepe, Turkey",Kiziltepe,Turkey
 2016-08-10,Bombing,5.0,10.0,"Diyarbakir, Turkey",Diyarbakir,Turkey
